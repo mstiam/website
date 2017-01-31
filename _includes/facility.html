@@ -1,0 +1,53 @@
+<div class="list-group-item">
+  <div class="media">
+    <div class="media-body">
+      <h5 class="media-heading">
+        {% if fac.link %}
+          {% if fac.manufacturer %}
+            <a href="{{ fac.link }}" target="_blank">{{ fac.manufacturer }} - {{ fac.name }}</a>
+          {% else %}
+            <a href="{{ fac.link }}" target="_blank">{{ fac.name }}</a>
+          {% endif %}
+        {% else %}
+          {% if fac.manufacturer %}
+            {{ fac.manufacturer }} - {{ fac.name }}
+          {% else %}
+            {{ fac.name }}
+          {% endif %}
+        {% endif %}
+      </h5>
+      <div class="row">
+        {% if fac.photo %}
+          <div class="col-sm-5">
+            <img class="media-object" style="margin-top: 10px" width="80%"
+                 src="{{ site.baseurl }}/img/facilities/{{ fac.photo }}" alt="No Photo">
+            </img>
+          </div>
+        {% endif %}
+        <div class="col-sm-7">
+          {% if fac.specifications %}
+            <h6>Remarkable Specifications</h6>
+            <ul>
+              {% for spec in fac.specifications %}
+                <li>{{ spec.name }}</li>
+              {% endfor %}
+            </ul>
+            <br/>
+          {% endif %}
+          {% if fac.sample-parts %}
+            <h6>Sample Parts</h6>
+            <ul class="list-inline">
+            {% for part in fac.sample-parts %}
+              <li>
+                <img class="media-object" height="180px"
+                    src="{{ site.baseurl }}/img/facilities/{{ part.photo }}" alt="No Photo">
+                </img>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,128 @@
+# Members Data File
+# Description
+#     This file contains individual records for each group member.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the
+#       right of the colon.
+#     The attributes available for STUDENT MEMBER records are as follows:
+#         name        The full name of the member
+#         degree      The name of their major with BS, MS, or PhD in parentheses*
+#         status      Enter "Active" or "Alumni" only*
+#         grad        The year and month the member graduates*
+#                     Format: full year followed by the full month,
+#                             e.g. 20## <Month>
+#         focus       The research area in which the member works
+#         emp         The group members employer (usually only applies to alumni)
+#         website     The full URL to the member's professional website
+#         photo       Just the name of the image file for the member
+#                     (must exist in the /img/members/ directory)
+#     The attributes available for PRIMARY INVESTIGATOR MEMBERS are as follows:
+#         name        The full name of the member*
+#         role        PI ONLY: The PI's role within the group*
+#         department  PI ONLY: The department with which the PI is affiliated*
+#         position    PI ONLY: The PI's job title*
+#         website     The full URL to the member's professional website
+#         photo       Just the name of the image file for the member
+#                     (must exist in the /img/members/ directory)
+#      * Required in order for the website to display
+#    Additional Notes:
+#      - Quotes around the values are optional.
+#      - Non-required attributes with blank values can be omitted completely.
+
+- name: Selective Laser Melting Machine
+  manufacturer: Renishaw
+  link: "http://www.renishaw.com/en/am250--15253"
+  specifications:
+    - name: "Machine Envelope: 1,700 mm x 800 mm x 2,025 mm"
+    - name: "Build Volume: 245 x 245 x 300 mm"
+    - name: "Max. Laser Power: 250 W"
+    - name: "Laser Spot Size: &cong; 70 microns"
+  photo: am250.png
+  sample-parts:
+    - photo: am250_p1.jpg
+    - photo: am250_p2.jpg
+    - photo: am250_p3.jpg
+    - photo: am250_p4.jpg
+    - photo: am250_p5.jpg
+    - photo: am250_p6.jpg
+
+- name: Universal Testing Machine
+  manufacturer: Automated Ball Indentation
+  link: "http://abiservices-usa.com/laboratory-services/"
+  specifications:
+    - name: "Maximum Load Capacity: 1000 lb"
+    - name: "Maximum Crosshead Speed: 0.0208 in/sec"
+    - name: "Indenter Diameter: 0.010 in, 0.020 in, 0.030 in, 0.062 in"
+    - name: "Machine Envelope: 24 in x 42 in"
+  photo: abi.jpg
+
+- name: 5969 Dual Column Test Frame
+  manufacturer: Instron
+  link: "http://www.instron.us/en-us/products/testing-systems/universal-testing-systems/electromechanical/5900/5960-dual-column"
+  specifications:
+    - name: "Maximum Load Capacity: 50 kN"
+    - name: "Test Speed Range: 0.001 to 600 mm/min"
+    - name: "Strain Gauge Extensometer: 1 inch gauge length"
+    - name: "Dimension of Vertical Test Space: 1212 mm"
+  photo: instron.jpg
+
+- name: VZ500LH Wire EDM Machine
+  manufacturer: Sodick
+  link: "http://www.sodick.com/products/wireedm/vz500lh"
+  specifications:
+    - name: "Machine Envelope: 2,300 mm x 2,590 mm x 2,440 mm"
+    - name: "Work Tank Dimensions: 990 mm x 750 mm"
+    - name: "Max. Work Weight: 1,874 lbf"
+    - name: "Wire Diameter: 0.30 mm"
+  photo: sodick.jpg
+
+- name: Teksphero-15 Plasma Spheroidizer
+  manufacturer: Tekna
+  link: "http://www.tekna.com/landing-page/teksphero-15"
+  specifications:
+    - name: "Spheroidizer Dimensions: 1,807 mm x 762 mm x 2,438 mm"
+    - name: "15 kW Maximum HF Output"
+    - name: "Max. Hydrogen Gas Flow Rate: 5 slpm"
+    - name: "Max. Argon Gas Flow Rate: 530 slpm"
+    - name: "Max. Auxiliary Gas Flow Rate: 480 slpm"
+    - name: "Max. Air Flow Rate: 20 slpm"
+  photo: tekna.jpg
+
+- name: Fortus 400mc Fused Deposition Modeling Machine
+  manufacturer: Stratasys
+  link: "http://www.stratasys.com/3d-printers/production-series/fortus-380-450mc"
+  specifications:
+    - name: "Machine Envelope: 50.45 in x  35.2 in x 77.25 in"
+    - name: "Build Volume: 14 in x 10 in x 10 in"
+    - name: "Max. Ambient Temperature: 85 &deg;F"
+  photo: fortus400.jpg
+  sample-parts:
+    - photo: fortus400_p1.jpg
+    - photo: fortus400_p2.jpg
+    - photo: fortus400_p3.jpg
+    - photo: fortus400_p4.jpg
+
+- name: DTM Sinterstation 2000 Selective Laser Sintering Machine
+  manufacturer: Multistation
+  link: "http://www.multistation.com/DTM-2000"
+  specifications:
+    - name: "Machine Envelope: 114 ft. x 58 ft. x 70 ft."
+    - name: "Build Volume: 12 in dia. x 15 in deep"
+    - name: "Max. Laser Power: 50 W"
+    - name: "Laser Spot Size:  450 &micro;m"
+  photo: dtm2000.jpg
+  sample-parts:
+    - photo: dtm2000_p1.jpg
+    - photo: dtm2000_p2.jpg
+    - photo: dtm2000_p3.jpg
+    - photo: dtm2000_p4.jpg
+
+- name: Ceramic On-Demand Extrusion Machine (developed in-house)
+  photo: ceramic_extrusion.jpg
+  sample-parts:
+    - photo: ceramic_extrusion_p1.jpg
+    - photo: ceramic_extrusion_p2.jpg
+    - photo: ceramic_extrusion_p3.jpg
+    - photo: ceramic_extrusion_p4.jpg

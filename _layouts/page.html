@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="media">
+        <div class="media-object pull-left">
+          <img class="hidden-xs logo" width="90px"
+               src="{{ site.baseurl }}/img/sandt_logo.svg" alt="Missouri S&amp;T">
+        </div>
+        <div class="media-body">
+          <h2 class="heading">{{ page.title }}</h2>
+        </div>
+      </div><br>
+    </div>
+  </div>
+</div>
+<div class="container">
+  {{ content }}
+</div>
+<script type="text/javascript">
+    $('body').scrollspy({
+        target: '.bs-docs-sidebar'
+    });
+</script>

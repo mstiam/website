@@ -1,0 +1,79 @@
+<li class="list-group-item">
+  <div class="media">
+    {% if person.photo %}
+      {% if person.website %}
+        <a href="{{ person.website }}" target="_blank">
+          <img class="media-object pull-left img-rounded" width="100" height="100"
+               style="margin-right:10px;"
+               src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
+        </a>
+      {% else %}
+        <img class="media-object pull-left img-rounded" width="100" height="100"
+             style="margin-right:10px"
+             src="{{ site.baseurl }}/img/members/{{ person.photo }}" alt="No Photo">
+      {% endif %}
+    {% else %}
+      {% if person.website %}
+        <a href="{{ person.website }}" target="_blank">
+          <img class="media-object pull-left img-rounded" width="100" height="100"
+               style="margin-right:10px;"
+               src="{{ site.baseurl }}/img/user_icon.png" alt="No Photo">
+        </a>
+      {% else %}
+      <img class="media-object pull-left img-rounded" width="100" height="100"
+           style="margin-right:10px;"
+           src="{{ site.baseurl }}/img/user_icon.png" alt="No Photo">
+      {% endif %}
+    {% endif %}
+    <div class="media-body">
+      <h4 class="media-heading">
+        {% if person.website %}
+          <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+        {% else %}
+          {{ person.name }}
+        {% endif %}
+        {% if person.degree %}
+          <small>{{ person.degree }}</small>
+        {% endif %}
+      </h4>
+      {% if person.grad %}
+        <h5>
+          {% if person.status == "Current" %}
+            <strong>Graduating:</strong>
+            {{ person.grad }}<br/>
+          {% else %}
+            <strong>Graduated:</strong>
+            {{ person.grad }}<br/>
+          {% endif %}
+        </h5>
+      {% endif %}
+      {% if person.position and person.department %}
+        <h5>
+          {{ person.position }} - {{ person.department }}<br/>
+        </h5>
+      {% elsif person.position %}
+        <h5>
+          {{ person.position }}<br/>
+        </h5>
+      {% endif %}
+      {% if person.email %}
+        <h5>
+          <i class="fa fa-envelope fa-lg fa-fw" style="margin-right:5px;"></i>
+          <a href="mailto:{{ person.email }}">{{ person.email }}</a> <br/>
+        </h5>
+      {% endif %}
+      {% if person.phone %}
+        <h5>
+          <i class="fa fa-phone fa-lg fa-fw" style="margin-right:5px;"></i>
+          {{ person.phone }} <br/>
+        </h5>
+      {% endif %}
+      {% if person.cv %}
+        <h5>
+          <i class="fa fa-file-text fa-lg fa-fw" style="margin-right:5px;"></i>
+          <a href="{{ site.baseurl }}/cv/{{ person.cv }}" target="_blank">CV</a>
+        </h5>
+      {% endif %}
+    </div>
+  </div>
+</li>

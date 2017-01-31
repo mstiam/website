@@ -1,0 +1,61 @@
+---
+layout: page
+title: People
+---
+{% assign faculty = site.data.faculty %}
+{% assign postdocs = site.data.postdocs %}
+{% assign students = site.data.students | where: 'status', 'Current' | sort:'grad'%}
+{% assign alumni = site.data.students | where: 'status', 'Alumni' | sort:'grad'%}
+{% assign staff = site.data.staff %}
+
+<div class="row">
+  <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
+    <ul id="sidebar" class="nav nav-stacked fixed">
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#postdocs">Postdoctoral Fellows</a></li>
+      <li><a href="#students">Current Students</a></li>
+      <!--
+      <li><a href="#alumni">Alumni</a></li>
+      -->
+      <li><a href="#staff">Staff</a></li>
+    </ul>
+  </nav>
+  <div class="col-sm-9">
+    <h4 id="faculty">Faculty</h4>
+    <ul class="list-group">
+      {% for person in faculty %}
+        {% include member.html %}
+      {% endfor %}
+    </ul>
+    <br/>
+    <h4 id="postdocs">Postdoctoral Fellows</h4>
+    <ul class="list-group">
+      {% for person in postdocs %}
+        {% include member.html %}
+      {% endfor %}
+    </ul>
+    <br/>
+    <h4 id="students">Current Students</h4>
+    <ul class="list-group">
+      {% for person in students %}
+        {% include member.html %}
+      {% endfor %}
+    </ul>
+    <!--
+    <br/>
+    <h4 id="alumni">Alumni</h4>
+    <ul class="list-group">
+      {% for person in alumni reversed %}
+        {% include member.html %}
+      {% endfor %}
+    </ul>
+    -->
+    <br/>
+    <h4 id="staff">Staff</h4>
+    <ul class="list-group">
+      {% for person in staff %}
+        {% include member.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

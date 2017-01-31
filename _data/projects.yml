@@ -1,0 +1,236 @@
+# Projects Data File
+# Description
+#     This file contains individual records for each research project.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the
+#       right of the colon.
+#     The attributes available for each record are as follows:
+#         name        Whatever the name of the project is*
+#         desc        A description of the project
+#         status      The current status of the project*
+#                     Options: "Active" or "Complete"
+#         area        Specifying this will list the document in the appropriate
+#                       research area*
+#                     Options: "per" or "cip"
+#         members     A list of members each of which only has a name attribute
+#         sponsors    A list of sponsors each of which only has a name attribute
+#      * Required in order for the website to display
+#    Additional Notes:
+#      - Quotes around the values are optional.
+#      - Non-required attributes with blank values can be ommitted completely.
+
+- name: 3D Printing for Bone Tissue Engineering
+  desc: |
+    In this research, we first investigated the fabrication of scaffolds with
+    engineered porosity from 13-93 bioactive glass using the selective laser
+    sintering (SLS) process and an extrusion-based process. The SLS process is a
+    powder-bed based additive manufacturing technique that fabricates a scaffold
+    layer-by-layer by controlling laser scans to sinter the mixture of ceramic
+    and binder particles in a powder bed. Pore geometry in the scaffold is shown
+    to play a crucial role as it affects not only the mechanical properties and
+    degradation over time as well as the amount of bone regeneration upon
+    implantation. In the extrusion-based process, aqueous-based bioactive glass
+    paste was deposited layer-by-layer using a micro-sized nozzle. The fabricated
+    green scaffolds are then heat treated to remove the binder. Our sintered
+    scaffolds demonstrated an average compressive strength of 136 MPa, which is
+    the highest reported in additive manufacturing of bioactive glass. To improve
+    the toughness of the scaffold, titanium fibers were added to the paste to
+    increase the fracture toughness and flexure strength of the scaffold.
+    Because a major limitation of synthetic bone repair is insufficient
+    vascularization in the interior of the porous implant, our current research
+    focuses on 3D bioprinting of mesenchymal stem cells (MSCs) suspended in the
+    hydrogel and polymer-bioactive glass composite. Bioprinting a scaffold with
+    these materials would offer a 3D environment for complex and dynamic
+    interactions that govern the MSCs behavior <em>in vivo</em>. Bioactive glass
+    is added to a mixture of polymer and an organic solvent to make an extrudable
+    paste. Porous polymer-glass composite scaffolds are fabricated by extruding
+    this paste using a syringe, and MSCs suspended in the hydrogel is deposited
+    using another syringe. <em>In vitro</em> assessment indicates the viability
+    of the process to print MSCs suspended in Matrigel. Fluorescence images from
+    the live-dead assay indicate that cells are alive and actively moving in the
+    scaffold.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: Julie Semon
+    - name: Delbert Day
+    - name: Krishna Kolan
+    - name: Caroline Murphy
+  sponsors:
+    - name: Missouri Research Board
+    - name: MO-SCI Corporation
+    - name: Intelligent Systems Center (Missouri S&amp;T)
+    - name: Keith and Pat Bailey Professorship Fund (Missouri S&amp;T)
+  photo: bone_tissue.png
+
+- name: Scalable Cyber-Physical Manufacturing Systems
+  desc: |
+    This is a collaborative research project between Missouri S&amp;T and the
+    University of Arkansas. This project is dedicated to the development of a
+    framework including architecture and protocols for communication among
+    various manufacturing resources and management of manufacturing services for
+    cyber-physical systems in cloud manufacturing. The practical aim is of the
+    cyber-physical system to increase the productivity and efficiency of
+    industrial enterprises by managing and sharing geographically dispersed
+    manufacturing resources and connecting customers with manufacturing companies.
+    The research consists of the following tasks: (1) scalable service-oriented
+    architecture for scalable cyber-physical manufacturing, (2) network
+    architecture and plug-and-play protocols, (3) methods for virtualization of
+    manufacturing resources (e.g., CNC machines, 3D printers, CMMs), and (4)
+    development of a testbed to evaluate the developed architecture, protocols,
+    and methods.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: Frank Liu
+    - name: Maggie Cheng
+    - name: Rakib Shahriar
+    - name: Nahian Al Sunny
+    - name: Liwen Hu
+  sponsors:
+    - name: National Science Foundation
+  photo: cyber_physical_manufacturing.png
+
+- name: Additive Manufacturing by Selective Laser Melting (SLM)
+  desc: |
+    The aim of this project is to perform fundamental research aimed at
+    understanding the selective laser melting (SLM) process, which is an additive
+    manufacturing technique that bonds successive layers of powder to produce
+    metal parts with any complex 3D geometry. The main research objectives are:
+      to characterize powder material, relate it to part properties and assess its
+      viability for reuse/recycling; to improve part properties through
+      optimization of process parameters; to control the microstructure of
+      manufactured parts with sensing using an infrared camera; to tune the
+      chemistry of input powder for the SLM process. To address these objectives,
+      the project consists of the following tasks: (1) powder characterization, (2)
+      material property characterization, (3) temperature effects on material
+      properties, (4) controlling microstructure and mechanical properties, and (5)
+      chemistry specifically for additive manufacturing.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: Joseph Newkirk
+    - name: Frank Liou
+    - name: Edward Kinzel
+    - name: Robert Landers
+    - name: Douglas Bristow
+    - name: Lianyi Chen
+    - name: Ronald O'Malley
+    - name: Tarak Amine
+    - name: Austin Sutton
+    - name: Caitlin Kriewall
+    - name: Sreekar Karnati
+    - name: Zachary Hilton
+    - name: Li Lan
+    - name: Baily Thomas
+    - name: Daniel Jacob
+    - name: Izach Axelsen
+    - name: Kimberly Dyhouse
+    - name: Matthew Guile
+    - name: Nick Pashos
+    - name: Cody Lough
+    - name: Benjamin Rackers
+
+  sponsors:
+    - name: Honeywell Federal Manufacturing &amp; Technologies
+  photo: slm.png
+
+- name: Additive Manufacturing by Ceramic On-Demand Extrusion
+  desc: |
+    This research investigates using the ceramic on-demand extrusion (CODE)
+    process to fabricate complex 3D parts made of ceramics and ceramic composites,
+    with applications to aerospace, energy, and biomedical industries. CODE is a
+    novel freeform extrusion fabrication process recently developed at Missouri
+    S&amp;T. This process uses layer-by-layer extrusion of aqueous pastes followed
+    by uniform radiation drying between successive layers. The parts that we have
+    fabricated using this process include aerospace structural components with
+    high-temperature and ultra-high-temperature materials (e.g., alumina, zirconium
+    diboride, and partially stabilized zirconia). This process has also been used
+    to fabricate smart parts with embedded sensors, e.g., smart lining blocks
+    with embedded optical fiber sensors that can used for <em>in situ</em>
+    temperature and stress monitoring. Our current research focuses on fabricating
+    composite structures made of two or more materials that can be distinct materials
+    or graded in compositions continuously as programmed to created parts with
+    functionally graded materials. The current research tasks include: (1) design
+    of parts with optimal material distribution, (2) development of colloidal
+    pastes from ceramic powder (3) simultaneous control of flow rates of multiple
+    pastes and homogeneous mixing of pastes, and (4) evaluating the mechanical
+    properties of fabricated parts with functionally graded materials.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: Greg E. Hilmas
+    - name: Jeremy L. Watts
+    - name: Amir Ghazanfari
+    - name: Wenbin Li
+    - name: Devin McMillen
+  sponsors:
+    - name: Department of Energy (National Energy Technology Laboratory)
+    - name: Intelligent Systems Center (Missouri S&amp;T)
+  photo: ceramic_extrusion.png
+
+- name: Low-Cost Rapid Tooling by Fused Deposition Modeling (FDM)
+  desc: |
+    The objective of this research project is to investigate low-cost rapid
+    tooling with Ultem (9085 &amp; 1010) using the fused deposition modeling (FDM)
+    process, an additive manufacturing technique that built a part layer-by-layer
+    by extruding thermoplastic material that is supplied in the filament form.
+    The tooling can be used in manufacturing of composites with the autoclave,
+    vacuum assisted resin transfer molding and other processes, as well as in
+    stamp forming applications. In this project, Ultem specimens are fabricated
+    using the FDM process and then their mechanical properties are measured in
+    compression, tension, and flexure tests at room and elevated temperatures.
+    The test specimens include solid coupons and sparse-build coupons with varying
+    build parameters including air gap, wall thickness, and cap thickness, as well
+    as different internal lattice structures. Modeling and simulation with finite
+    element analysis is used to predict the mechanical properties of sparse-build
+    FDM tools and compare the predicted results with data obtained from
+    experimental testing. The project is conducted jointly by Missouri S&amp;T
+    and Boeing Research &amp; Technology.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: K. Chandrashekhara
+    - name: Leah Mason
+    - name: Greg Taylor
+    - name: Xin Wang
+    - name: Mike Matlack
+    - name: James Castle
+  sponsors:
+    - name: Boeing
+    - name: Stratasys
+    - name: Steelville Manufacturing
+    - name: Center for Aerospace Manufacturing Technologies (Missouri S&amp;T)
+    - name: America Makes
+  photo: fdm.png
+
+- name: |
+    Cyber-Physical Sensing, Modeling, and Control with Augmented Reality for
+    Smart Manufacturing Workforce Training and Operations Management
+  desc: |
+    Smart manufacturing integrates information, technology, and human ingenuity
+    to inspire the next revolution in the manufacturing industry. Manufacturing
+    has been identified as a key strategic investment area by the U.S. government,
+    private sector, and university leaders to spur innovation and keep America
+    competitive. However, the lack of new methodologies and tools is challenging
+    continuous innovation in the smart manufacturing industry. This award supports
+    fundamental research to develop a cyber-physical sensing, modeling, and
+    control infrastructure, coupled with augmented reality, to significantly
+    improve the efficiency of future workforce training, performance of operations
+    management, safety and comfort of workers for smart manufacturing. Results
+    from this research are expected to transform the practice of
+    worker-machine-task coordination and provide a powerful tool for operations
+    management. This research involves several disciplines including sensing,
+    data analytics, modeling, control, augmented reality, and workforce training
+    and will provide unique interdisciplinary training opportunities for students
+    and future manufacturing engineers.
+  status: Active
+  members:
+    - name: Ming C. Leu
+    - name: Ruwen Qin
+    - name: Zhaozheng Yin
+  sponsors:
+    - name: National Science Foundation
+  photo: augmented_reality.png

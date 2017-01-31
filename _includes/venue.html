@@ -1,0 +1,11 @@
+<a class="list-group-item" href="{{ venue.website }}" target="_blank">
+  <h6>
+    {{ venue.name }}
+    <small>
+      {% if venue.type %}
+        {{ venue.type }}
+      {% endif %}
+    </small>
+    <i class="fa fa-external-link pull-right"></i>
+  </h6>
+</a>

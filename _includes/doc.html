@@ -1,0 +1,11 @@
+<a class="list-group-item" href="{{ doc.website }}" target="_blank">
+  <h6>
+    {{ doc.name }}
+    {% if doc.author %}
+    <small>
+      {{ doc.author }}
+    </small>
+    {% endif %}
+    <i class="fa fa-external-link pull-right"></i>
+  </h6>
+</a>
