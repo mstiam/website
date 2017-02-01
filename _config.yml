@@ -13,6 +13,20 @@ permalink: pretty
 
 gems:
   - jekyll-feed
+  - jekyll/scholar
+
 exclude:
   - Gemfile
   - Gemfile.lock
+
+scholar:
+  source: ./_data
+  bibliography: publications.bib
+  style: _csl/mla.csl
+  locale: en
+  sort_by: none
+  order: ascending
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  #details_link:   Details
+  #query: "@*"
