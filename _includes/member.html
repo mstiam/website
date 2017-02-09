@@ -28,12 +28,24 @@
     <div class="media-body">
       <h4 class="media-heading">
         {% if person.website %}
-          <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+          {% if person.title %}
+            <a href="{{ person.website }}" target="_blank">
+              {{ person.title }} {{ person.firstname }} {{ person.lastname }}
+            </a>
+          {% else %}
+            <a href="{{ person.website }}" target="_blank">
+              {{ person.firstname }} {{ person.lastname }}
+            </a>
+          {% endif %}
         {% else %}
-          {{ person.name }}
+          {% if person.title %}
+            {{ person.title }} {{ person.firstname }} {{ person.lastname }}
+          {% else %}
+            {{ person.firstname }} {{ person.lastname }}
+          {% endif %}
         {% endif %}
-        {% if person.degree %}
-          <small>{{ person.degree }}</small>
+        {% if person.major %}
+          <small>{{ person.major }}</small>
         {% endif %}
       </h4>
       {% if person.grad %}

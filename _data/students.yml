@@ -32,8 +32,10 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 
-- name: Amir Ghazanfari
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Amir
+  lastname: Ghazanfari
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2017
   email: ag4nc@mst.edu
@@ -41,8 +43,10 @@
   cv: Ghazanfari.docx
   photo: Ghazanfari.jpg
 
-- name: Chia-Hung Hung
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Chia-Hung
+  lastname: Hung
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2020
   email: hungch@mst.edu
@@ -50,8 +54,10 @@
   cv: Hung.docx
   photo: Hung.jpg
 
-- name: Leah Mason
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Leah
+  lastname: Mason
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2019
   email: lmnw9@mst.edu
@@ -59,8 +65,10 @@
   cv: Mason.docx
   photo: Mason.jpg
 
-- name: Austin Sutton
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Austin
+  lastname: Sutton
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2019
   email: atsfk6@mst.edu
@@ -68,8 +76,10 @@
   cv: Sutton.docx
   photo: Sutton.jpg
 
-- name: Wenjin Tao
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Wenjin
+  lastname: Tao
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2019
   email: wt6c2@mst.edu
@@ -77,8 +87,10 @@
   cv:
   photo: Tao.jpg
 
-- name: Wenbin Li
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Wenbin
+  lastname: Li
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2018
   email: wl9ff@mst.edu
@@ -86,8 +98,10 @@
   cv: W-Li.pdf
   photo: W-Li.jpg
 
-- name: Yingqi Li
-  degree: Mechanical and Aerospace Engineering (PhD)
+- firstname: Yingqi
+  lastname: Li
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
   status: Current
   grad: 2020
   email: yl534@mst.edu
@@ -95,8 +109,10 @@
   cv: Y-Li.docx
   photo: Y-Li.jpg
 
-- name: Caroline Murphy
-  degree: Mechanical and Aerospace Engineering (MS)
+- firstname: Caroline
+  lastname: Murphy
+  major: Mechanical and Aerospace Engineering
+  degree: MS
   status: Current
   grad: 2017
   email: cmb65@mst.edu
@@ -104,8 +120,10 @@
   cv: Murphy.docx
   photo: Murphy.jpg
 
-- name: Devin McMillen
-  degree: Mechanical and Aerospace Engineering (MS)
+- firstname: Devin
+  lastname: McMillen
+  major: Mechanical and Aerospace Engineering
+  degree: MS
   status: Current
   grad: 2017
   email: dtmwx7@mst.edu
@@ -113,8 +131,10 @@
   cv: McMillen.pdf
   photo: McMillen.jpg
 
-- name: Joshua Heck
-  degree: Mechanical and Aerospace Engineering (MS)
+- firstname: Joshua
+  lastname: Heck
+  major: Mechanical and Aerospace Engineering
+  degree: MS
   status: Current
   grad: 2017
   email: jdh26c@mst.edu
@@ -122,8 +142,10 @@
   cv: Heck.docx
   photo: Heck.jpg
 
-- name: Liwen Hu
-  degree: Mechanical and Aerospace Engineering (MS)
+- firstname: Liwen
+  lastname: Hu
+  major: Mechanical and Aerospace Engineering
+  degree: MS
   status: Current
   grad: 2017
   email: lhqz6@mst.edu
@@ -131,8 +153,10 @@
   cv: Hu.docx
   photo: Hu.jpg
 
-- name: Albin Thomas
-  degree: Mechanical and Aerospace Engineering (MS)
+- firstname: Albin
+  lastname: Thomas
+  major: Mechanical and Aerospace Engineering
+  degree: MS
   status: Alumni
   grad: 2015
   email: atqk3@mst.edu

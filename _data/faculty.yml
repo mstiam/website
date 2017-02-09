@@ -32,153 +32,210 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 
-- name: Dr. Ming C. Leu
+- title: Dr.
+  firstname: Ming C.
+  lastname: Leu
   department: Mechanical and Aerospace Engineering
   position: Keith and Pat Bailey Professor
+  role: Director
   website: http://web.mst.edu/~mleu/
   phone: (573) 341-4482
   email: mleu@mst.edu
   photo: Leu.jpg
 
-- name: Dr. Gregory E. Hilmas
+- title: Dr.
+  firstname: Gregory E.
+  lastname: Hilmas
   department: Materials Science and Engineering
   position: Curators' Professor of Ceramic Engineering
+  role: Investigator
   website: https://mse.mst.edu/facultystaffandfacilities/hilmas/
   phone: (573) 341-6102
   email: ghilmas@mst.edu
   photo: Hilmas.jpg
 
-- name: Dr. Robert G. Landers
+- title: Dr.
+  firstname: Robert G.
+  lastname: Landers
   department: Mechanical and Aerospace Engineering
   position: Professor
+  role: Investigator
   website: http://web.mst.edu/~landersr/
   phone: (573) 341-4586
   email: landersr@mst.edu
   photo: Landers.jpg
 
-- name: Dr. Douglas A. Bristow
+- title: Dr.
+  firstname: Douglas A.
+  lastname: Bristow
   department: Mechanical and Aerospace Engineering
   position: Assistant Professor
+  role: Investigator
   website: http://web.mst.edu/~dbristow/
   phone: (573) 341-6559
   email: dbristow@mst.edu
   photo: Bristow.jpg
 
-- name: Dr. Lianyi Chen
+- title: Dr.
+  firstname: Lianyi
+  lastname: Chen
   department: Mechanical and Aerospace Engineering
   position: Assistant Professor
+  role: Investigator
   website: https://mae.mst.edu/facultyandstaff/facultychen/
   phone: (573) 341-6023
   email: chenliany@mst.edu
   photo: Chen.jpg
 
-- name: Dr. Edward C. Kinzel
+- title: Dr.
+  firstname: Edward C.
+  lastname: Kinzel
   department: Mechanical and Aerospace Engineering
   position: Assistant Professor
+  role: Investigator
   website: https://mae.mst.edu/facultyandstaff/facultykinzel/
   phone: (573) 341-7254
   email: kinzele@mst.edu
   photo: Kinzel.jpg
 
-- name: Dr. Frank Liou
+- title: Dr.
+  firstname: Frank
+  lastname: Liou
   department: Mechanical and Aerospace Engineering
   position: Professor
+  role: Investigator
   website: http://web.mst.edu/~liou/
   phone: (573) 341-4603
   email: liou@mst.edu
   photo: Liou.jpg
 
-- name: Dr. Joseph Newkirk
+- title: Dr.
+  firstname: Joseph
+  lastname: Newkirk
   department: Materials Science and Engineering
   position: Associate Professor
+  role: Investigator
   website: http://web.mst.edu/~jnewkirk/
   phone: (573) 341-4725
   email: jnewkirk@mst.edu
   photo: Newkirk.jpg
 
-- name: Dr. Ronald J. O'Malley
+- title: Dr.
+  firstname: Ronald J.
+  lastname: O'Malley
   department: Materials Science and Engineering
   position: F. Kenneth Iverson Chair Professor
+  role: Investigator
   website: https://mse.mst.edu/facultystaffandfacilities/omalley/
   phone: (573) 341-7683
   email: omalleyr@mst.edu
   photo: OMalley.jpg
 
-- name: Dr. Zhaozheng Yin
+- title: Dr.
+  firstname: Zhaozheng
+  lastname: Yin
   department: Computer Science
   position: Assistant Professor
+  role: Investigator
   website: http://web.mst.edu/~yinz/
   phone: (573) 341-6266
   email: yinz@mst.edu
   photo: Yin.jpg
 
-- name: Dr. Ruwen Qin
+- title: Dr.
+  firstname: Ruwen
+  lastname: Qin
   department: Engineering Management and Systems Engineering
   position: Associate Professor
+  role: Investigator
   website: http://web.mst.edu/~qinr/
   phone: (573) 341-4493
   email: qinr@mst.edu
   photo: Qin.jpg
 
-- name: Dr. Umit O. Koylu
+- title: Dr.
+  firstname: Umit O.
+  lastname: Koylu
   department: Mechanical and Aerospace Engineering
   position: Professor
+  role: Investigator
   website: https://mae.mst.edu/facultyandstaff/facultykoylu/
   phone: (573) 341-6601
   email: koyluu@mst.edu
   photo: Koylu.jpg
 
-- name: Dr. Jeremy Watts
+- title: Dr.
+  firstname: Jeremy
+  lastname: Watts
   department: Materials Science and Engineering
   position: Assistant Professor
+  role: Investigator
   website: https://mse.mst.edu/facultystaffandfacilities/watts/
   phone: (573) 341-6386
   email: jwatts@mst.edu
   photo: Watts.jpg
 
-- name: Dr. K. Chandrashekhara
+- title: Dr.
+  firstname: K.
+  lastname: Chandrashekhara
   department: Mechanical and Aerospace Engineering
   position: Curators' Distinguished Professor
+  role: Investigator
   website: http://web.mst.edu/~chandra/
   phone: (573) 341-4587
   email: chandra@mst.edu
   photo: Chandrashekhara.jpg
 
-- name: Dr. Thomas P. Schuman
+- title: Dr.
+  firstname: Thomas P.
+  lastname: Schuman
   department: Chemistry
   position: Professor
+  role: Investigator
   website: http://chem.mst.edu/facultyandstaff/tschuman/
   phone: (573) 341-6236
   email: tschuman@mst.edu
   photo: Schuman.jpg
 
-- name: Dr. Hai-Lung Tsai
+- title: Dr.
+  firstname: Hai-Lung
+  lastname: Tsai
   department: Mechanical and Aerospace Engineering
   position: Professor
+  role: Investigator
   website: http://web.mst.edu/~tsai/
   phone: (573) 341-4945
   email: tsai@mst.edu
   photo: Tsai.jpg
 
-- name: Dr. Delbert E. Day
+- title: Dr.
+  firstname: Delbert E.
+  lastname: Day
   department: Materials Science and Engineering
   position: Curators' Professor of Ceramic Engineering
+  role: Investigator
   website: http://web.mst.edu/~day/
   phone: (573) 341-4354
   email: day@mst.edu
   photo: Day.jpg
 
-- name: Dr. Julie A. Semon
+- title: Dr.
+  firstname: Julie A.
+  lastname: Semon
   department: Biological Sciences
   position: Assistant Professor
+  role: Investigator
   website: http://people.mst.edu/faculty/semonja/
   phone: (573) 341-6606
   email: semonja@mst.edu
   photo: Semon.jpg
 
-- name: Dr. Yong Liu
+- title: Dr.
+  firstname: Yong
+  lastname: Liu
   department: Mechanical and Aerospace Engineering
   position: Visiting Professor from Xi'an University of Technology
+  role: Investigator
   website: http://js.xaut.edu.cn/web/liuyong
   phone:
   email: liuy1@mst.edu

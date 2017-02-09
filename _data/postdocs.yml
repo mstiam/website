@@ -32,18 +32,22 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 
-- name: Dr. Krishna Kolan
+- title: Dr.
+  firstname: Krishna
+  lastname: Kolan
   department: Mechanical and Aerospace Engineering
   position: Postdoctoral Fellow
-  website:
+  website: http://web.mst.edu/~kolank/
   email: kolank@mst.edu
   cv:
   photo: Krishna.jpg
 
-- name: Dr. Tu (Ryan) Nguyen
+- title: Dr.
+  firstname: Tu (Ryan)
+  lastname: Nguyen
   department: Mechanical and Aerospace Engineering
   position: Postdoctoral Fellow
-  website:
-  email:
-  cv: 
-  photo:
+  website: http://web.mst.edu/~nguyennt/
+  email: nguyennt@mst.edu
+  cv:
+  photo: Nguyen.jpg

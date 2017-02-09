@@ -9,7 +9,7 @@ title: Research Projects
 
 <div class="row">
   <div class="col-sm-12">
-    {% if activeProjects.size > 1 %}
+    {% if activeProjects.size > 0 %}
   	  <h4 id="projects">Active Projects</h4>
       <div class="list-group">
         {% for proj in activeProjects %}
@@ -18,7 +18,7 @@ title: Research Projects
       </div>
     {% endif %}
 
-    {% if pastProjects.size > 1 %}
+    {% if pastProjects.size > 0 %}
       <h4>Past Projects</h4>
       <div class="list-group">
         {% for proj in pastProjects %}

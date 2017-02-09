@@ -32,14 +32,16 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 
-- name: Debbie Sickler
+- firstname: Debbie
+  lastname: Sickler
   position: Administrative Assistant
   email: sicklerd@mst.edu
   address: 320 Engineering Research Laboratory
   phone: (573) 341-4350
   photo: Sickler.jpg
 
-- name: Lisa Winstead
+- firstname: Lisa
+  lastname: Winstead
   position: Senior Secretary
   email: winsteadl@mst.edu
   address: 320 Engineering Research Laboratory
