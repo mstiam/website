@@ -74,6 +74,12 @@
           <a href="mailto:{{ person.email }}">{{ person.email }}</a> <br/>
         </h5>
       {% endif %}
+      {% if person.office %}
+        <h5>
+          <i class="fa fa-map-marker fa-lg fa-fw" style="margin-right:5px;"></i>
+          {{ person.office }} <br/>
+        </h5>
+      {% endif %}
       {% if person.phone %}
         <h5>
           <i class="fa fa-phone fa-lg fa-fw" style="margin-right:5px;"></i>
