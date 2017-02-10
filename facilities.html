@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Facilities
+title: Facilities &amp; Equipment
 ---
 {% assign facilities = site.data.facilities %}
 
 <div class="row">
   <div class="col-sm-12">
-	  <h4 id="projects">Available Equipment at IAM Lab</h4>
     <div class="list-group">
       {% for fac in facilities %}
         {% include facility.html %}

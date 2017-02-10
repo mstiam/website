@@ -34,16 +34,16 @@ body {
 
 .full-width-image {
   background: url('../img/toomey.jpg') no-repeat center 100%;
-        background-size: 100%;
-        text-align: center;
-        padding: 75px 0;
-        height:550px;
+  background-size: 100%;
+  text-align: center;
+  padding: 75px 0;
+  height:550px;
 }
 .full-width-image-xs {
   background: url('../img/toomey.jpg') no-repeat center 100%;
-        background-size: 100%;
-        text-align: center;
-        padding: 75px 0;
+  background-size: 100%;
+  text-align: center;
+  padding: 75px 0;
 }
 
 .media-left, .media > .pull-left {

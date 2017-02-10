@@ -22,6 +22,7 @@
 #      - Non-required attributes with blank values can be ommitted completely.
 
 - name: 3D Printing for Bone Tissue Engineering
+  shortname: Bone Tissue Engineering
   desc: |
     In this research, we first investigated the fabrication of scaffolds with
     engineered porosity from 13-93 bioactive glass using the selective laser
@@ -52,7 +53,7 @@
     the live-dead assay indicate that cells are alive and actively moving in the
     scaffold.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: Julie Semon
     - name: Delbert Day
@@ -66,6 +67,7 @@
   photo: bone_tissue.png
 
 - name: Scalable Cyber-Physical Manufacturing Systems
+  shortname: Cyber-Physical Manufacturing
   desc: |
     This is a collaborative research project between Missouri S&amp;T and the
     University of Arkansas. This project is dedicated to the development of a
@@ -82,7 +84,7 @@
     development of a testbed to evaluate the developed architecture, protocols,
     and methods.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: Frank Liu
     - name: Maggie Cheng
@@ -94,6 +96,7 @@
   photo: cyber_physical_manufacturing.png
 
 - name: Additive Manufacturing by Selective Laser Melting (SLM)
+  shortname: Selective Laser Melting
   desc: |
     The aim of this project is to perform fundamental research aimed at
     understanding the selective laser melting (SLM) process, which is an additive
@@ -109,7 +112,7 @@
       properties, (4) controlling microstructure and mechanical properties, and (5)
       chemistry specifically for additive manufacturing.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: Joseph Newkirk
     - name: Frank Liou
@@ -138,6 +141,7 @@
   photo: slm.png
 
 - name: Additive Manufacturing by Ceramic On-Demand Extrusion
+  shortname: Ceramic On-Demand Extrusion
   desc: |
     This research investigates using the ceramic on-demand extrusion (CODE)
     process to fabricate complex 3D parts made of ceramics and ceramic composites,
@@ -159,7 +163,7 @@
     pastes and homogeneous mixing of pastes, and (4) evaluating the mechanical
     properties of fabricated parts with functionally graded materials.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: Greg E. Hilmas
     - name: Jeremy L. Watts
@@ -172,6 +176,7 @@
   photo: ceramic_extrusion.png
 
 - name: Low-Cost Rapid Tooling by Fused Deposition Modeling (FDM)
+  shortname: Fused Deposition Modeling
   desc: |
     The objective of this research project is to investigate low-cost rapid
     tooling with Ultem (9085 &amp; 1010) using the fused deposition modeling (FDM)
@@ -190,7 +195,7 @@
     experimental testing. The project is conducted jointly by Missouri S&amp;T
     and Boeing Research &amp; Technology.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: K. Chandrashekhara
     - name: Leah Mason
@@ -209,6 +214,7 @@
 - name: |
     Cyber-Physical Sensing, Modeling, and Control with Augmented Reality for
     Smart Manufacturing Workforce Training and Operations Management
+  shortname: Smart Manufacturing
   desc: |
     Smart manufacturing integrates information, technology, and human ingenuity
     to inspire the next revolution in the manufacturing industry. Manufacturing
@@ -227,7 +233,7 @@
     and will provide unique interdisciplinary training opportunities for students
     and future manufacturing engineers.
   status: Active
-  members:
+  participants:
     - name: Ming C. Leu
     - name: Ruwen Qin
     - name: Zhaozheng Yin

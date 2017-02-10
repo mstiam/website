@@ -1,7 +1,7 @@
 <div class="list-group-item">
   <div class="media">
     <div class="media-body">
-      <h5 class="media-heading">
+      <h4 class="media-heading">
         {% if fac.link %}
           {% if fac.manufacturer %}
             <a href="{{ fac.link }}" target="_blank">{{ fac.manufacturer }} - {{ fac.name }}</a>
@@ -15,18 +15,18 @@
             {{ fac.name }}
           {% endif %}
         {% endif %}
-      </h5>
+      </h4>
       <div class="row">
         {% if fac.photo %}
-          <div class="col-sm-5">
-            <img class="media-object" style="margin-top: 10px" width="80%"
+          <div class="col-sm-4">
+            <img class="media-object" style="margin-top: 10px" width="90%"
                  src="{{ site.baseurl }}/img/facilities/{{ fac.photo }}" alt="No Photo">
             </img>
           </div>
         {% endif %}
-        <div class="col-sm-7">
+        <div class="col-sm-7 col-sm-offset-1">
           {% if fac.specifications %}
-            <h6>Remarkable Specifications</h6>
+            <h5>Specifications &amp; Capabilities</h5>
             <ul>
               {% for spec in fac.specifications %}
                 <li>{{ spec.name }}</li>
@@ -35,7 +35,7 @@
             <br/>
           {% endif %}
           {% if fac.sample-parts %}
-            <h6>Sample Parts</h6>
+            <h5>Sample Parts</h5>
             <ul class="list-inline">
             {% for part in fac.sample-parts %}
               <li>

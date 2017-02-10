@@ -1,26 +1,26 @@
 <div class="list-group-item">
-  <h5>{{ proj.name }}</h5>
+  <h4 id="{{ proj.shortname | replace: ' ', '-' }}" style="margin-bottom: 30px;">
+    <strong>{{ proj.name }}</strong>
+  </h4>
   <div class="row">
-    {% if proj.members %}
-      <div class="col-sm-6">
-        <h6>Participant(s)</h6>
-        <ul>
-          {% for member in proj.members %}
-            <li>{{ member.name }}</li>
+    <div class="col-sm-12">
+      {% if proj.participants %}
+        <p>
+          <strong>Participant(s): </strong>
+          {% for participant in proj.participants %}
+            {{ participant.name }}{% if forloop.last == false %}, {% endif %}
           {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-    {% if proj.sponsors %}
-      <div class="col-sm-6">
-        <h6>Sponsor(s)</h6>
-        <ul>
+        </p>
+      {% endif %}
+      {% if proj.sponsors %}
+        <p>
+          <strong>Sponsor(s): </strong>
           {% for sponsor in proj.sponsors %}
-            <li>{{ sponsor.name }}</li>
+            {{ sponsor.name }}{% if forloop.last == false %}, {% endif %}
           {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
+        </p>
+      {% endif %}
+    </div>
   </div>
   {% if proj.photo %}
     <div class="row">
