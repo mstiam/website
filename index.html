@@ -2,26 +2,68 @@
 layout: home
 title: Missouri S&amp;T Innovative Additive Manufacturing Lab
 ---
+{% assign slideshowitems = site.data.slideshow %}
 
-<div class="row" style="margin: 25px 0px;" id="contacts">
-  <div class="col-sm-10 col-sm-offset-1 ">
-    <p class="text-justify">
-      <strong>Additive manufacturing, often referred to as three-dimensional (3D)
-      printing, is a way of making products and components from a digital model.
-      It is being applied in a wide range of industries, including defense,
-      aerospace, automotive, medical, and metals manufacturing.</strong>
-    </p>
-    <p class="text-justify">
-      This Laboratory conducts research aimed at meeting some of the major
-      technical challenges of rapid product realization. Check <a href="{{ site.baseurl }}/background">
-      Background Page</a> where we have described the motivation and objectives
-      of creating this research lab.
-    </p>
-    <p class="text-justify">
-      There are a variety of areas of research being studied by graduate and
-      undergraduate students in the lab under the supervision of faculty
-      members. <a href="{{ site.baseurl }}/research-projects">Research Projects</a>
-      lists the current cutting edge research going on in our lab.
-    </p>
+<div class="row" style="margin: 25px 0px;">
+  <div class="col-sm-12">
+    <div class="col-sm-5">
+      <h4>What Additive Manufacturing Is:</h4>
+      <p class="text-justify">
+        Commonly known as 3D printing, <em>additive manufacturing</em> is the &ldquo;process
+        of joining materials to make objects from three-dimensional model data,
+        usually layer by layer, as opposed to subtractive manufacturing
+        methodologies.&rdquo; Additive manufacturing holds great promise for the
+        future as a tool-less, light-out manufacturing technology, and offers
+        significant benefit over conventional manufacturing processes in producing
+        one-of-a-kind parts or small batches, especially for those with geometric
+        and/or material complexities.
+      </p>
+      <br/>
+      <h4>Who We Are:</h4>
+      <p class="text-justify">
+        The Innovative Additive Manufacturing (IAM) Laboratory conducts research
+        to develop novel additive manufacturing processes and also on the optimization
+        and innovative applications of these and other additive manufacturing processes.
+      </p>
+      <br/>
+      <h4>What We Do:</h4>
+      <p class="text-justify">
+        Recently, we have been developing a novel ceramic additive manufacturing
+        process, called <em>Ceramic On-Demand Extrusion (CODE)</em>, and its
+        fabrication of 3D parts from ceramics, glasses, and ceramic composites
+        (including functionally gradient materials). Our research group are also
+        investigating methods to optimize the <em>Selective Laser Melting</em>,
+        <em>Selective Laser Sintering</em>, and <em>Fused Deposition Modeling</em>
+        processes. Finally we are developing novel applications of the various
+        additive manufacturing processes for the aerospace, defense, energy,
+        electronics, biomedical and other industries. Information is available from
+        the IAM lab website on each of the currently active
+        <a href="{{ site.baseurl }}/research-projects">research projects</a>.
+      </p>
+      <br/>
+      <h4>More About IAM:</h4>
+        The research <a href="{{ site.baseurl }}/people">personnel</a> include a
+        sizable number of best-in-class <a href="{{ site.baseurl }}/people/#faculty">faculty</a>
+        assisted by intelligent and diligent
+        <a href="{{ site.baseurl }}/people#postdocs">post-doctoral fellows</a>,
+        <a href="{{ site.baseurl }}/people/#phd-students">graduate</a> and
+        <a href="{{ site.baseurl }}/people/#bs-students">undergraduate students</a>.
+        Our laboratory contains excellent research
+        <a href="{{ site.baseurl }}/facilities">facilities</a> including additive
+        manufacturing and related ancillary equipment. Additionally, Missouri S&amp;T
+        has state-of-the-art facilities for material testing and characterization.
+    </div>
+
+    <div class="col-sm-7">
+      {% include slideshow.html %}
+      <br/>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HSWhT_sCe7I?fs=1&rel=0&autohide=0" allowfullscreen></iframe>
+      </div>
+      <br/>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yxUjE3IcY90?fs=1&rel=0&autohide=0&start=0&end=85" allowfullscreen></iframe>
+      </div>
+    </div>
   </div>
 </div>

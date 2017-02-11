@@ -21,79 +21,40 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- name: 3D Printing for Bone Tissue Engineering
-  shortname: Bone Tissue Engineering
+- name: Additive Manufacturing by Ceramic On-Demand Extrusion
+  shortname: Ceramic On-Demand Extrusion
   desc: |
-    In this research, we first investigated the fabrication of scaffolds with
-    engineered porosity from 13-93 bioactive glass using the selective laser
-    sintering (SLS) process and an extrusion-based process. The SLS process is a
-    powder-bed based additive manufacturing technique that fabricates a scaffold
-    layer-by-layer by controlling laser scans to sinter the mixture of ceramic
-    and binder particles in a powder bed. Pore geometry in the scaffold is shown
-    to play a crucial role as it affects not only the mechanical properties and
-    degradation over time as well as the amount of bone regeneration upon
-    implantation. In the extrusion-based process, aqueous-based bioactive glass
-    paste was deposited layer-by-layer using a micro-sized nozzle. The fabricated
-    green scaffolds are then heat treated to remove the binder. Our sintered
-    scaffolds demonstrated an average compressive strength of 136 MPa, which is
-    the highest reported in additive manufacturing of bioactive glass. To improve
-    the toughness of the scaffold, titanium fibers were added to the paste to
-    increase the fracture toughness and flexure strength of the scaffold.
-    Because a major limitation of synthetic bone repair is insufficient
-    vascularization in the interior of the porous implant, our current research
-    focuses on 3D bioprinting of mesenchymal stem cells (MSCs) suspended in the
-    hydrogel and polymer-bioactive glass composite. Bioprinting a scaffold with
-    these materials would offer a 3D environment for complex and dynamic
-    interactions that govern the MSCs behavior <em>in vivo</em>. Bioactive glass
-    is added to a mixture of polymer and an organic solvent to make an extrudable
-    paste. Porous polymer-glass composite scaffolds are fabricated by extruding
-    this paste using a syringe, and MSCs suspended in the hydrogel is deposited
-    using another syringe. <em>In vitro</em> assessment indicates the viability
-    of the process to print MSCs suspended in Matrigel. Fluorescence images from
-    the live-dead assay indicate that cells are alive and actively moving in the
-    scaffold.
+    This research investigates using the ceramic on-demand extrusion (CODE)
+    process to fabricate complex 3D parts made of ceramics and ceramic composites,
+    with applications to aerospace, energy, and biomedical industries. CODE is a
+    novel freeform extrusion fabrication process recently developed at Missouri
+    S&amp;T. This process uses layer-by-layer extrusion of aqueous pastes followed
+    by uniform radiation drying between successive layers. The parts that we have
+    fabricated using this process include aerospace structural components with
+    high-temperature and ultra-high-temperature materials (e.g., alumina, zirconium
+    diboride, and partially stabilized zirconia). This process has also been used
+    to fabricate smart parts with embedded sensors, e.g., smart lining blocks
+    with embedded optical fiber sensors that can used for <em>in situ</em>
+    temperature and stress monitoring. Our current research focuses on fabricating
+    composite structures made of two or more materials that can be distinct materials
+    or graded in compositions continuously as programmed to created parts with
+    functionally graded materials. The current research tasks include: (1) design
+    of parts with optimal material distribution, (2) development of colloidal
+    pastes from ceramic powder (3) simultaneous control of flow rates of multiple
+    pastes and homogeneous mixing of pastes, and (4) evaluating the mechanical
+    properties of fabricated parts with functionally graded materials.
   status: Active
   participants:
     - name: Ming C. Leu
-    - name: Julie Semon
-    - name: Delbert Day
-    - name: Krishna Kolan
-    - name: Caroline Murphy
+    - name: Greg E. Hilmas
+    - name: Jeremy L. Watts
+    - name: Amir Ghazanfari
+    - name: Wenbin Li
+    - name: Devin McMillen
   sponsors:
-    - name: Missouri Research Board
-    - name: MO-SCI Corporation
-    - name: Intelligent Systems Center (Missouri S&amp;T)
-    - name: Keith and Pat Bailey Professorship Fund (Missouri S&amp;T)
-  photo: bone_tissue.png
-
-- name: Scalable Cyber-Physical Manufacturing Systems
-  shortname: Cyber-Physical Manufacturing
-  desc: |
-    This is a collaborative research project between Missouri S&amp;T and the
-    University of Arkansas. This project is dedicated to the development of a
-    framework including architecture and protocols for communication among
-    various manufacturing resources and management of manufacturing services for
-    cyber-physical systems in cloud manufacturing. The practical aim is of the
-    cyber-physical system to increase the productivity and efficiency of
-    industrial enterprises by managing and sharing geographically dispersed
-    manufacturing resources and connecting customers with manufacturing companies.
-    The research consists of the following tasks: (1) scalable service-oriented
-    architecture for scalable cyber-physical manufacturing, (2) network
-    architecture and plug-and-play protocols, (3) methods for virtualization of
-    manufacturing resources (e.g., CNC machines, 3D printers, CMMs), and (4)
-    development of a testbed to evaluate the developed architecture, protocols,
-    and methods.
-  status: Active
-  participants:
-    - name: Ming C. Leu
-    - name: Frank Liu
-    - name: Maggie Cheng
-    - name: Rakib Shahriar
-    - name: Nahian Al Sunny
-    - name: Liwen Hu
-  sponsors:
-    - name: National Science Foundation
-  photo: cyber_physical_manufacturing.png
+    - name: Department of Energy (National Energy Technology Laboratory)
+    - name: S&amp;T Intelligent Systems Center
+  photo: ceramic_extrusion.png
 
 - name: Additive Manufacturing by Selective Laser Melting (SLM)
   shortname: Selective Laser Melting
@@ -135,45 +96,9 @@
     - name: Nick Pashos
     - name: Cody Lough
     - name: Benjamin Rackers
-
   sponsors:
     - name: Honeywell Federal Manufacturing &amp; Technologies
   photo: slm.png
-
-- name: Additive Manufacturing by Ceramic On-Demand Extrusion
-  shortname: Ceramic On-Demand Extrusion
-  desc: |
-    This research investigates using the ceramic on-demand extrusion (CODE)
-    process to fabricate complex 3D parts made of ceramics and ceramic composites,
-    with applications to aerospace, energy, and biomedical industries. CODE is a
-    novel freeform extrusion fabrication process recently developed at Missouri
-    S&amp;T. This process uses layer-by-layer extrusion of aqueous pastes followed
-    by uniform radiation drying between successive layers. The parts that we have
-    fabricated using this process include aerospace structural components with
-    high-temperature and ultra-high-temperature materials (e.g., alumina, zirconium
-    diboride, and partially stabilized zirconia). This process has also been used
-    to fabricate smart parts with embedded sensors, e.g., smart lining blocks
-    with embedded optical fiber sensors that can used for <em>in situ</em>
-    temperature and stress monitoring. Our current research focuses on fabricating
-    composite structures made of two or more materials that can be distinct materials
-    or graded in compositions continuously as programmed to created parts with
-    functionally graded materials. The current research tasks include: (1) design
-    of parts with optimal material distribution, (2) development of colloidal
-    pastes from ceramic powder (3) simultaneous control of flow rates of multiple
-    pastes and homogeneous mixing of pastes, and (4) evaluating the mechanical
-    properties of fabricated parts with functionally graded materials.
-  status: Active
-  participants:
-    - name: Ming C. Leu
-    - name: Greg E. Hilmas
-    - name: Jeremy L. Watts
-    - name: Amir Ghazanfari
-    - name: Wenbin Li
-    - name: Devin McMillen
-  sponsors:
-    - name: Department of Energy (National Energy Technology Laboratory)
-    - name: Intelligent Systems Center (Missouri S&amp;T)
-  photo: ceramic_extrusion.png
 
 - name: Low-Cost Rapid Tooling by Fused Deposition Modeling (FDM)
   shortname: Fused Deposition Modeling
@@ -207,14 +132,59 @@
     - name: Boeing
     - name: Stratasys
     - name: Steelville Manufacturing
-    - name: Center for Aerospace Manufacturing Technologies (Missouri S&amp;T)
+    - name: S&amp;T Center for Aerospace Manufacturing Technologies
     - name: America Makes
   photo: fdm.png
+
+- name: 3D Printing for Bone Tissue Engineering
+  shortname: Bone Tissue Engineering
+  desc: |
+    In this research, we first investigated the fabrication of scaffolds with
+    engineered porosity from 13-93 bioactive glass using the selective laser
+    sintering (SLS) process and an extrusion-based process. The SLS process is a
+    powder-bed based additive manufacturing technique that fabricates a scaffold
+    layer-by-layer by controlling laser scans to sinter the mixture of ceramic
+    and binder particles in a powder bed. Pore geometry in the scaffold is shown
+    to play a crucial role as it affects not only the mechanical properties and
+    degradation over time as well as the amount of bone regeneration upon
+    implantation. In the extrusion-based process, aqueous-based bioactive glass
+    paste was deposited layer-by-layer using a micro-sized nozzle. The fabricated
+    green scaffolds are then heat treated to remove the binder. Our sintered
+    scaffolds demonstrated an average compressive strength of 136 MPa, which is
+    the highest reported in additive manufacturing of bioactive glass. To improve
+    the toughness of the scaffold, titanium fibers were added to the paste to
+    increase the fracture toughness and flexure strength of the scaffold.
+    Because a major limitation of synthetic bone repair is insufficient
+    vascularization in the interior of the porous implant, our current research
+    focuses on 3D bioprinting of mesenchymal stem cells (MSCs) suspended in the
+    hydrogel and polymer-bioactive glass composite. Bioprinting a scaffold with
+    these materials would offer a 3D environment for complex and dynamic
+    interactions that govern the MSCs behavior <em>in vivo</em>. Bioactive glass
+    is added to a mixture of polymer and an organic solvent to make an extrudable
+    paste. Porous polymer-glass composite scaffolds are fabricated by extruding
+    this paste using a syringe, and MSCs suspended in the hydrogel is deposited
+    using another syringe. <em>In vitro</em> assessment indicates the viability
+    of the process to print MSCs suspended in Matrigel. Fluorescence images from
+    the live-dead assay indicate that cells are alive and actively moving in the
+    scaffold.
+  status: Active
+  participants:
+    - name: Ming C. Leu
+    - name: Julie Semon
+    - name: Delbert Day
+    - name: Krishna Kolan
+    - name: Caroline Murphy
+  sponsors:
+    - name: Missouri Research Board
+    - name: MO-SCI Corporation
+    - name: S&amp;T Intelligent Systems Center
+    - name: Keith and Pat Bailey Professorship Fund
+  photo: bone_tissue.png
 
 - name: |
     Cyber-Physical Sensing, Modeling, and Control with Augmented Reality for
     Smart Manufacturing Workforce Training and Operations Management
-  shortname: Smart Manufacturing
+  shortname: Smart Manufacturing with Augmented Reality
   desc: |
     Smart manufacturing integrates information, technology, and human ingenuity
     to inspire the next revolution in the manufacturing industry. Manufacturing
@@ -240,3 +210,32 @@
   sponsors:
     - name: National Science Foundation
   photo: augmented_reality.png
+
+- name: Scalable Cyber-Physical Manufacturing Systems
+  shortname: Cyber-Physical Manufacturing
+  desc: |
+    This is a collaborative research project between Missouri S&amp;T and the
+    University of Arkansas. This project is dedicated to the development of a
+    framework including architecture and protocols for communication among
+    various manufacturing resources and management of manufacturing services for
+    cyber-physical systems in cloud manufacturing. The practical aim is of the
+    cyber-physical system to increase the productivity and efficiency of
+    industrial enterprises by managing and sharing geographically dispersed
+    manufacturing resources and connecting customers with manufacturing companies.
+    The research consists of the following tasks: (1) scalable service-oriented
+    architecture for scalable cyber-physical manufacturing, (2) network
+    architecture and plug-and-play protocols, (3) methods for virtualization of
+    manufacturing resources (e.g., CNC machines, 3D printers, CMMs), and (4)
+    development of a testbed to evaluate the developed architecture, protocols,
+    and methods.
+  status: Active
+  participants:
+    - name: Ming C. Leu
+    - name: Frank Liu
+    - name: Maggie Cheng
+    - name: Rakib Shahriar
+    - name: Nahian Al Sunny
+    - name: Liwen Hu
+  sponsors:
+    - name: National Science Foundation
+  photo: cyber_physical_manufacturing.png

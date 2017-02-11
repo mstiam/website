@@ -10,9 +10,11 @@ title: Research Projects
   <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
     <ul id="sidebar" class="nav nav-stacked fixed">
       {% for proj in activeProjects %}
-        <li><a href="{{ proj.shortname | replace: ' ', '-' | prepend: '#' }}">
-          {{ proj.shortname }}
-        </a></li>
+        <li class="col-sm-6 col-md-8 col-lg-10">
+          <a href="{{ proj.shortname | replace: ' ', '-' | prepend: '#' }}">
+            {{ proj.shortname }}
+          </a>
+        </li>
       {% endfor %}
     </ul>
   </nav>

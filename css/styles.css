@@ -32,22 +32,6 @@ body {
   background-position: center;
 }
 
-.full-width-image {
-  background: url('../img/toomey.jpg') no-repeat center 100%;
-  background-size: 100%;
-  text-align: center;
-  padding: 75px 0;
-  height:550px;
-  margin-top: 20px;
-}
-.full-width-image-xs {
-  background: url('../img/toomey.jpg') no-repeat center 100%;
-  background-size: 100%;
-  text-align: center;
-  padding: 75px 0;
-  margin-top: 15px;
-}
-
 .media-left, .media > .pull-left {
   padding-right: 4px;
 }
