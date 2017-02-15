@@ -24,8 +24,8 @@ scholar:
   bibliography: publications.bib
   style: _csl/mla.csl
   locale: en
-  sort_by: none
-  order: ascending
+  sort_by: year
+  order: descending
   #details_dir:    bibliography
   #details_layout: bibtex.html
   #details_link:   Details
