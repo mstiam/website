@@ -63,15 +63,15 @@
     understanding the selective laser melting (SLM) process, which is an additive
     manufacturing technique that bonds successive layers of powder to produce
     metal parts with any complex 3D geometry. The main research objectives are:
-      to characterize powder material, relate it to part properties and assess its
-      viability for reuse/recycling; to improve part properties through
-      optimization of process parameters; to control the microstructure of
-      manufactured parts with sensing using an infrared camera; to tune the
-      chemistry of input powder for the SLM process. To address these objectives,
-      the project consists of the following tasks: (1) powder characterization, (2)
-      material property characterization, (3) temperature effects on material
-      properties, (4) controlling microstructure and mechanical properties, and (5)
-      chemistry specifically for additive manufacturing.
+    to characterize powder material, relate it to part properties and assess its
+    viability for reuse/recycling; to improve part properties through
+    optimization of process parameters; to control the microstructure of
+    manufactured parts with sensing using an infrared camera; to tune the
+    chemistry of input powder for the SLM process. To address these objectives,
+    the project consists of the following tasks: (1) powder characterization, (2)
+    material property characterization, (3) temperature effects on material
+    properties, (4) controlling microstructure and mechanical properties, and (5)
+    chemistry specifically for additive manufacturing.
   status: Active
   participants:
     - name: Ming C. Leu
@@ -99,6 +99,37 @@
   sponsors:
     - name: Honeywell Federal Manufacturing &amp; Technologies
   photo: slm.png
+
+- name: Laser Foil Printing (LFP) for Additive Manufacturing
+  shortname: Laser Foil Printing
+  desc: |
+    The objective of the project is to develop a new additive manufacturing (AM)
+    technology, called Laser Foil Printing (LFP), for fabricating three-dimensional
+    (3D) metal parts. Instead of using metal powders as in most existing AM
+    technologies, the new method uses metal foils as feed stock. The procedure
+    consists of two alternating processes: foil welding by a high-power
+    continuous-wave laser and foil cutting by a Q-switched ultraviolet laser. The
+    foil welding process involves two sub-processes: laser spot welding and laser
+    raster-scan welding. The reason for using two lasers is to achieve simultaneously
+    the high-speed and high-precision manufacturing. The results on laser
+    foil-welding and foil-cutting show that complete and strong welding bonds can
+    be achieved with selected parameters, and that clean and no-burr/distortion
+    cut of foil can be obtained. Several 3D AISI 1010 steel parts fabricated by
+    the proposed AM technology are obtained, and the micro-hardness and tensile
+    strength of the as-fabricated parts are both significantly greater than those
+    of the original foil. The LFP can also be used for fabricating sensor-embedded
+    parts and for outer space manufacturing under low gravity, vacuum and low
+    temperature environments.
+  status: Active
+  participants:
+    - name: Hai-Lung Tsai
+    - name: Ming C. Leu
+    - name: Chen Chen
+    - name: Yiyu Shen
+    - name: Chia-Hung Hung
+  sponsors:
+    - name: Department of Energy
+  photo: lfp.png
 
 - name: Low-Cost Rapid Tooling by Fused Deposition Modeling (FDM)
   shortname: Fused Deposition Modeling
