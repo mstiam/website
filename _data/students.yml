@@ -39,7 +39,7 @@
   status: Current
   grad: 2017
   email: ag4nc@mst.edu
-  website:
+  website: "http://web.mst.edu/~ag4nc/"
   cv: Ghazanfari.docx
   photo: Ghazanfari.jpg
 
@@ -153,6 +153,73 @@
   cv: Hu.docx
   photo: Hu.jpg
 
+- firstname: Ze-Hao
+  lastname: Lai
+  major: Mechanical and Aerospace Engineering
+  degree: MS
+  status: Current
+  grad: 2018
+  email: zl2k3@mst.edu
+  website:
+  cv: Lai.pdf
+  photo: Lai.jpg
+
+- firstname: Alexander
+  lastname: Henderson
+  major: Mechanical and Aerospace Engineering
+  degree: BS
+  status: Current
+  grad: 2018
+  email: amhq38@mst.edu
+  website:
+  cv: Henderson.docx
+  photo:
+
+- firstname: Baily
+  lastname: Thomas
+  major: Mechanical and Aerospace Engineering
+  degree: BS
+  status: Current
+  grad: 2018
+  email: bjt5gd@mst.edu
+  website:
+  cv: B-Thomas.pdf
+  photo: B-Thomas.jpg
+
+- firstname: Brett
+  lastname: Buswell
+  major: Mechanical and Aerospace Engineering
+  degree: BS
+  status: Current
+  grad: 2019
+  email: bbwv9@mst.edu
+  website:
+  cv: Buswell.pdf
+  photo: Buswell.jpg
+
+- firstname: Jeff
+  lastname: Hill
+  major: Mechanical and Aerospace Engineering
+  degree: BS
+  status: Current
+  grad: 2017
+  email: jrhq4f@mst.edu
+  website:
+  cv: Hill.docx
+  photo: Hill.jpg
+
+- firstname: Lucas
+  lastname: Weiler
+  major: Mechanical and Aerospace Engineering
+  degree: BS
+  status: Current
+  grad: 2017
+  email: llw7vc@mst.edu
+  website:
+  cv: Weiler.pdf
+  photo: Weiler.jpg
+
+
 - firstname: Albin
   lastname: Thomas
   major: Mechanical and Aerospace Engineering
@@ -162,4 +229,4 @@
   email: atqk3@mst.edu
   website:
   cv:
-  photo: Thomas.jpg
+  photo: A-Thomas.jpg

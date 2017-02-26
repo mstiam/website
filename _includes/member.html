@@ -28,9 +28,9 @@
     <div class="media-body">
       <h4 class="media-heading">
         {% if person.website %}
-          {% if person.title %}
+          {% if person.prefix %}
             <a href="{{ person.website }}" target="_blank">
-              {{ person.title }} {{ person.firstname }} {{ person.lastname }}
+              {{ person.prefix }} {{ person.firstname }} {{ person.lastname }}
             </a>
           {% else %}
             <a href="{{ person.website }}" target="_blank">
@@ -38,8 +38,8 @@
             </a>
           {% endif %}
         {% else %}
-          {% if person.title %}
-            {{ person.title }} {{ person.firstname }} {{ person.lastname }}
+          {% if person.prefix %}
+            {{ person.prefix }} {{ person.firstname }} {{ person.lastname }}
           {% else %}
             {{ person.firstname }} {{ person.lastname }}
           {% endif %}

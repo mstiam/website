@@ -32,7 +32,7 @@
 #      - Non-required attributes with blank values can be omitted completely.
 
 
-- title: Dr.
+- prefix: Dr.
   firstname: Ming C.
   lastname: Leu
   department: Mechanical and Aerospace Engineering
@@ -43,7 +43,7 @@
   email: mleu@mst.edu
   photo: Leu.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Gregory E.
   lastname: Hilmas
   department: Materials Science and Engineering
@@ -54,7 +54,7 @@
   email: ghilmas@mst.edu
   photo: Hilmas.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Robert G.
   lastname: Landers
   department: Mechanical and Aerospace Engineering
@@ -65,7 +65,7 @@
   email: landersr@mst.edu
   photo: Landers.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Douglas A.
   lastname: Bristow
   department: Mechanical and Aerospace Engineering
@@ -76,7 +76,7 @@
   email: dbristow@mst.edu
   photo: Bristow.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Lianyi
   lastname: Chen
   department: Mechanical and Aerospace Engineering
@@ -87,7 +87,7 @@
   email: chenliany@mst.edu
   photo: Chen.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Edward C.
   lastname: Kinzel
   department: Mechanical and Aerospace Engineering
@@ -98,7 +98,7 @@
   email: kinzele@mst.edu
   photo: Kinzel.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Frank
   lastname: Liou
   department: Mechanical and Aerospace Engineering
@@ -109,7 +109,7 @@
   email: liou@mst.edu
   photo: Liou.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Joseph
   lastname: Newkirk
   department: Materials Science and Engineering
@@ -120,7 +120,7 @@
   email: jnewkirk@mst.edu
   photo: Newkirk.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Ronald J.
   lastname: O'Malley
   department: Materials Science and Engineering
@@ -131,7 +131,7 @@
   email: omalleyr@mst.edu
   photo: OMalley.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Zhaozheng
   lastname: Yin
   department: Computer Science
@@ -142,7 +142,7 @@
   email: yinz@mst.edu
   photo: Yin.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Ruwen
   lastname: Qin
   department: Engineering Management and Systems Engineering
@@ -153,7 +153,7 @@
   email: qinr@mst.edu
   photo: Qin.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Umit O.
   lastname: Koylu
   department: Mechanical and Aerospace Engineering
@@ -164,7 +164,7 @@
   email: koyluu@mst.edu
   photo: Koylu.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Jeremy
   lastname: Watts
   department: Materials Science and Engineering
@@ -175,7 +175,7 @@
   email: jwatts@mst.edu
   photo: Watts.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: K.
   lastname: Chandrashekhara
   department: Mechanical and Aerospace Engineering
@@ -186,7 +186,7 @@
   email: chandra@mst.edu
   photo: Chandrashekhara.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Thomas P.
   lastname: Schuman
   department: Chemistry
@@ -197,7 +197,7 @@
   email: tschuman@mst.edu
   photo: Schuman.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Hai-Lung
   lastname: Tsai
   department: Mechanical and Aerospace Engineering
@@ -208,7 +208,7 @@
   email: tsai@mst.edu
   photo: Tsai.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Delbert E.
   lastname: Day
   department: Materials Science and Engineering
@@ -219,7 +219,7 @@
   email: day@mst.edu
   photo: Day.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Julie A.
   lastname: Semon
   department: Biological Sciences
@@ -230,7 +230,7 @@
   email: semonja@mst.edu
   photo: Semon.jpg
 
-- title: Dr.
+- prefix: Dr.
   firstname: Yong
   lastname: Liu
   department: Mechanical and Aerospace Engineering
