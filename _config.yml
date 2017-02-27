@@ -1,9 +1,12 @@
 # Site settings
 title: Missouri S&T IAM
 email: km89f@mst.edu
-description: ""
-baseurl: ""
-url: "iam-mst.github.io"
+description: "Missouri S&T - Innovative Additive Manufacturing Laboratory"
+baseurl: "/~mstiam"
+url: "http://web.mst.edu/~mstiam"
+# GITHUB PAGES:
+#baseurl: ""
+#url: "mstiam.github.io"
 encoding: utf-8
 github_username: koosham
 
