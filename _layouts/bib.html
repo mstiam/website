@@ -1,0 +1,10 @@
+---
+---
+<strong>
+  {% if entry.link %}
+    &#8220;<a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a>,&#8221;
+  {% else %}
+    &#8220;{{ entry.title }},&#8221;
+  {% endif %}
+</strong>
+{{ reference }}

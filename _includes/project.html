@@ -35,6 +35,8 @@
   {% if proj.desc %}
     <p class="text-justify">{{ proj.desc }}</p>
   {% endif %}
-  <strong>Publications:</strong>
-  {% bibliography --query @*[project={{ proj.shortname }}] %}
+  <strong>Publication(s):</strong>
+  <small>
+    {% bibliography --query @*[project={{ proj.shortname }}] %}
+  </small>
 </div>

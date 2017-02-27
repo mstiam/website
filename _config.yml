@@ -4,8 +4,8 @@ email: km89f@mst.edu
 description: ""
 baseurl: ""
 url: "iam-mst.github.io"
-encoding: ISO-8859-1
-github_username:  koosham
+encoding: utf-8
+github_username: koosham
 
 # Build settings
 markdown: kramdown
@@ -22,11 +22,12 @@ exclude:
 scholar:
   source: ./_data
   bibliography: publications.bib
-  style: _csl/mla.csl
+  style: _csl/chicago_titlefirst.csl
+  bibliography_template: bib
   locale: en
   sort_by: year
   order: descending
-  #details_dir:    bibliography
+  #details_dir: bibliography
   #details_layout: bibtex.html
-  #details_link:   Details
+  #details_link: Details
   #query: "@*"
