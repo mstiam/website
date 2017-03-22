@@ -21,7 +21,9 @@
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be ommitted completely.
 
-- name: Additive Manufacturing by Ceramic On-Demand Extrusion
+- name: |
+    Ceramic On-Demand Extrusion (CODE) for Additive Manufacturing of Ceramics
+    and Ceramic Composites
   shortname: Ceramic On-Demand Extrusion
   desc: |
     This research investigates using the ceramic on-demand extrusion (CODE)
@@ -56,7 +58,9 @@
     - name: S&amp;T Intelligent Systems Center
   photo: ceramic_extrusion.png
 
-- name: Additive Manufacturing by Selective Laser Melting (SLM)
+- name: |
+    Modeling, Control, Characterization, and Optimization of Selective Laser
+    Melting (SLM)
   shortname: Selective Laser Melting
   desc: |
     The aim of this project is to perform fundamental research aimed at

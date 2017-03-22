@@ -1,5 +1,5 @@
 <div class="list-group-item">
-  <h4 id="{{ proj.shortname | replace: ' ', '-' }}" style="margin-bottom: 30px;">
+  <h4 id="{{ proj.shortname | slugify }}" style="margin-bottom: 30px;">
     <strong>{{ proj.name }}</strong>
   </h4>
   <div class="row">

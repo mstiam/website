@@ -11,7 +11,7 @@ title: Research Projects
     <ul id="sidebar" class="nav nav-stacked fixed">
       {% for proj in activeProjects %}
         <li class="col-sm-6 col-md-8 col-lg-10">
-          <a href="{{ proj.shortname | replace: ' ', '-' | prepend: '#' }}">
+          <a href="{{ proj.shortname | slugify | prepend: '#' }}">
             {{ proj.shortname }}
           </a>
         </li>

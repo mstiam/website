@@ -40,7 +40,7 @@
   grad: 2017
   email: ag4nc@mst.edu
   website: "http://web.mst.edu/~ag4nc/"
-  cv: Ghazanfari.docx
+  cv: Ghazanfari.pdf
   photo: Ghazanfari.jpg
 
 - firstname: Chia-Hung
@@ -51,7 +51,7 @@
   grad: 2020
   email: hungch@mst.edu
   website:
-  cv: Hung.docx
+  cv: Hung.pdf
   photo: Hung.jpg
 
 - firstname: Leah
@@ -62,7 +62,7 @@
   grad: 2019
   email: lmnw9@mst.edu
   website:
-  cv: Mason.docx
+  cv: Mason.pdf
   photo: Mason.jpg
 
 - firstname: Austin
@@ -73,7 +73,7 @@
   grad: 2019
   email: atsfk6@mst.edu
   website:
-  cv: Sutton.docx
+  cv: Sutton.pdf
   photo: Sutton.jpg
 
 - firstname: Wenjin
@@ -106,7 +106,7 @@
   grad: 2020
   email: yl534@mst.edu
   website:
-  cv: Y-Li.docx
+  cv: 
   photo: Y-Li.jpg
 
 - firstname: Caroline
@@ -117,7 +117,7 @@
   grad: 2017
   email: cmb65@mst.edu
   website:
-  cv: Murphy.docx
+  cv: Murphy.pdf
   photo: Murphy.jpg
 
 - firstname: Devin
@@ -139,7 +139,7 @@
   grad: 2017
   email: jdh26c@mst.edu
   website:
-  cv: Heck.docx
+  cv: Heck.pdf
   photo: Heck.jpg
 
 - firstname: Liwen
@@ -150,7 +150,7 @@
   grad: 2017
   email: lhqz6@mst.edu
   website:
-  cv: Hu.docx
+  cv: Hu.pdf
   photo: Hu.jpg
 
 - firstname: Ze-Hao
@@ -172,7 +172,7 @@
   grad: 2018
   email: amhq38@mst.edu
   website:
-  cv: Henderson.docx
+  cv: Henderson.pdf
   photo:
 
 - firstname: Baily
@@ -205,7 +205,7 @@
   grad: 2017
   email: jrhq4f@mst.edu
   website:
-  cv: Hill.docx
+  cv: Hill.pdf
   photo: Hill.jpg
 
 - firstname: Lucas

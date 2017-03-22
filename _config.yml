@@ -2,13 +2,13 @@
 title: Missouri S&T IAM
 email: km89f@mst.edu
 description: "Missouri S&T - Innovative Additive Manufacturing Laboratory"
-baseurl: "/~mstiam"
-url: "http://web.mst.edu/~mstiam"
+#baseurl: "/~mstiam"
+#url: "http://web.mst.edu/~mstiam"
 # GITHUB PAGES:
-#baseurl: ""
-#url: "mstiam.github.io"
+baseurl: ""
+url: "mstiam.github.io"
 encoding: utf-8
-github_username: koosham
+github_username: mstiam
 
 # Build settings
 markdown: kramdown
