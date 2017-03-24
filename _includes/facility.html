@@ -18,13 +18,13 @@
       </h4>
       <div class="row">
         {% if fac.photo %}
-          <div class="col-sm-4">
+          <div class="col-sm-4 col-xs-5">
             <img class="media-object" style="margin-top: 10px" width="90%"
                  src="{{ site.baseurl }}/img/facilities/{{ fac.photo }}" alt="No Photo">
             </img>
           </div>
         {% endif %}
-        <div class="col-sm-7 col-sm-offset-1">
+        <div class="col-sm-7 col-sm-offset-1 col-xs-7">
           {% if fac.specifications or fac.desc %}
             <h5>Capabilities &amp; Specifications</h5>
             <ul>

@@ -7,10 +7,10 @@ title: Research Projects
 {% assign pastProjects = projects | where: 'status', 'Complete' %}
 
 <div class="row">
-  <nav class="col-sm-3 bs-docs-sidebar hidden-xs no-print">
+  <nav class="col-md-3 bs-docs-sidebar hidden-sm hidden-xs no-print">
     <ul id="sidebar" class="nav nav-stacked fixed">
       {% for proj in activeProjects %}
-        <li class="col-sm-6 col-md-8 col-lg-10">
+        <li class="col-md-8 col-lg-10">
           <a href="{{ proj.shortname | slugify | prepend: '#' }}">
             {{ proj.shortname }}
           </a>
@@ -18,7 +18,7 @@ title: Research Projects
       {% endfor %}
     </ul>
   </nav>
-  <div class="col-sm-9">
+  <div class="col-md-9">
     {% if activeProjects.size > 0 %}
   	  <!--
       <h4 id="projects">Active Projects</h4>
