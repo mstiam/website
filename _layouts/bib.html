@@ -1,8 +1,14 @@
 ---
 ---
 <strong>
-  {% if entry.link %}
-    &#8220;<a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a>,&#8221;
+  {% if entry.doi %}
+    {% if entry.doi contains 'dx.doi.org' %}
+      &#8220;<a class="" href="{{ entry.doi }}" target="_blank">{{ entry.title }}</a>,&#8221;
+    {% else %}
+      &#8220;<a class="" href="{{ entry.doi | prepend: 'http://dx.doi.org/' }}" target="_blank">{{ entry.title }}</a>,&#8221;
+    {% endif %}
+  {% elsif entry.link %}
+    &#8220;<a class="" href="{{ entry.link }}" target="_blank">{{ entry.title }}</a>,&#8221;
   {% else %}
     &#8220;{{ entry.title }},&#8221;
   {% endif %}

@@ -1,31 +1,23 @@
-# Members Data File
+# Faculty Members Data File
 # Description
-#     This file contains individual records for each group member.
+#     This file contains individual records for each faculty member.
 #     Feel free to use an existing record as a starting point for a new entry.
 #     Each individual record is denoted by ONLY ONE dash "-" on the first line.
 #     After that, a list of attributes can be seen.
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
-#     The attributes available for STUDENT MEMBER records are as follows:
-#         name        The full name of the member
-#         degree      The name of their major with BS, MS, or PhD in parentheses*
-#         status      Enter "Active" or "Alumni" only*
-#         grad        The year and month the member graduates*
-#                     Format: full year followed by the full month,
-#                             e.g. 20## <Month>
-#         focus       The research area in which the member works
-#         emp         The group members employer (usually only applies to alumni)
+#     Available attributes are as follows:
+#         prefix      Prefix for the faculty member, e.g., "Dr."
+#         firstname   The first name of the faculty member*
+#         lastname    The last name of the faculty member*
+#         department  The department with which the faculty member is affiliated*
+#         position    The faculty member's job title*
+#         role:       The faculty member's role within the group*
 #         website     The full URL to the member's professional website
-#         photo       Just the name of the image file for the member
-#                     (must exist in the /img/members/ directory)
-#     The attributes available for PRIMARY INVESTIGATOR MEMBERS are as follows:
-#         name        The full name of the member*
-#         role        PI ONLY: The PI's role within the group*
-#         department  PI ONLY: The department with which the PI is affiliated*
-#         position    PI ONLY: The PI's job title*
-#         website     The full URL to the member's professional website
-#         photo       Just the name of the image file for the member
-#                     (must exist in the /img/members/ directory)
+#         phone       Phone number of the member
+#         email       Email address of the member
+#         photo       Just the name and the extension of the image file for the
+#                     member (must exist in the /img/members/ directory)
 #      * Required in order for the website to display
 #    Additional Notes:
 #      - Quotes around the values are optional.

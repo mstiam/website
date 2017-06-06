@@ -20,26 +20,11 @@ title: Research Projects
   </nav>
   <div class="col-md-9">
     {% if activeProjects.size > 0 %}
-  	  <!--
-      <h4 id="projects">Active Projects</h4>
-      -->
       <div class="list-group">
         {% for proj in activeProjects %}
           {% include project.html %}
         {% endfor %}
       </div>
     {% endif %}
-
-    <!--
-    {% if pastProjects.size > 0 %}
-      <h4>Past Projects</h4>
-      <div class="list-group">
-        {% for proj in pastProjects %}
-          {% include project.html %}
-        {% endfor %}
-      </div>
-      <hr>
-    {% endif %}
-    -->
   </div>
 </div>

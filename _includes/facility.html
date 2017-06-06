@@ -25,14 +25,14 @@
           </div>
         {% endif %}
         <div class="col-sm-7 col-sm-offset-1 col-xs-7">
-          {% if fac.specifications or fac.desc %}
-            <h5>Capabilities &amp; Specifications</h5>
+          {% if fac.specs or fac.desc %}
+            <h5>Capabilities &amp; specs</h5>
             <ul>
               {% if fac.desc %}
                 <li>{{ fac.desc }}</li>
               {% endif %}
-              {% if fac.specifications %}
-                {% for spec in fac.specifications %}
+              {% if fac.specs %}
+                {% for spec in fac.specs %}
                   <li>{{ spec.name }}</li>
                 {% endfor %}
               {% endif %}

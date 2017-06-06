@@ -7,25 +7,33 @@
 #     The name of the attribute is to the left of the colon; the value is to the
 #       right of the colon.
 #     The attributes available for each record are as follows:
-#         name        Whatever the name of the project is*
-#         desc        A description of the project
+#         name        The name of the project*
+#         shortname   A short name for the project (less than 30 characters)
+#         desc        An extensive description of the project
 #         status      The current status of the project*
-#                     Options: "Active" or "Complete"
-#         area        Specifying this will list the document in the appropriate
-#                       research area*
-#                     Options: "per" or "cip"
-#         members     A list of members each of which only has a name attribute
-#         sponsors    A list of sponsors each of which only has a name attribute
+#                         Enter "Active" or "Complete" only
+#         partic      A list of members who participated in the project, each of
+#                     which only has a "name" attribute
+#         sponsors    A list of sponsors each of which only has a "name" attribute
+#         photo       Just the name and the extension of the image file for the
+#                     project (must exist in the /img/projects/ directory)
 #      * Required in order for the website to display
 #    Additional Notes:
-#      - Quotes around the values are optional.
-#      - Non-required attributes with blank values can be ommitted completely.
+#      - Quotes around the values are optional, unless there exist a colon (:)
+#           in the entry
+#      - Non-required attributes with blank values can be ommitted completely
+#      - For long entries, it is advised to use a block style: in front of the
+#           key, add a ">" character, followed by as many indented lines as
+#           needed,
+#           e.g., - name: >
+#                     This is a very very long entry that doesn't fit in a
+#                     single line.
 
-- name: |
+- name: >
     Ceramic On-Demand Extrusion (CODE) for Additive Manufacturing of Ceramics
     and Ceramic Composites
   shortname: Ceramic On-Demand Extrusion
-  desc: |
+  desc: >
     This research investigates using the ceramic on-demand extrusion (CODE)
     process to fabricate complex 3D parts made of ceramics and ceramic composites,
     with applications to aerospace, energy, and biomedical industries. CODE is a
@@ -46,7 +54,7 @@
     pastes and homogeneous mixing of pastes, and (4) evaluating the mechanical
     properties of fabricated parts with functionally graded materials.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: Greg E. Hilmas
     - name: Jeremy L. Watts
@@ -58,11 +66,11 @@
     - name: S&amp;T Intelligent Systems Center
   photo: ceramic_extrusion.png
 
-- name: |
+- name: >
     Modeling, Control, Characterization, and Optimization of Selective Laser
     Melting (SLM)
   shortname: Selective Laser Melting
-  desc: |
+  desc: >
     The aim of this project is to perform fundamental research aimed at
     understanding the selective laser melting (SLM) process, which is an additive
     manufacturing technique that bonds successive layers of powder to produce
@@ -77,7 +85,7 @@
     properties, (4) controlling microstructure and mechanical properties, and (5)
     chemistry specifically for additive manufacturing.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: Joseph Newkirk
     - name: Frank Liou
@@ -106,7 +114,7 @@
 
 - name: Laser Foil Printing (LFP) for Additive Manufacturing
   shortname: Laser Foil Printing
-  desc: |
+  desc: >
     The objective of the project is to develop a new additive manufacturing (AM)
     technology, called Laser Foil Printing (LFP), for fabricating three-dimensional
     (3D) metal parts. Instead of using metal powders as in most existing AM
@@ -125,7 +133,7 @@
     parts and for outer space manufacturing under low gravity, vacuum and low
     temperature environments.
   status: Active
-  participants:
+  partic:
     - name: Hai-Lung Tsai
     - name: Ming C. Leu
     - name: Chen Chen
@@ -137,7 +145,7 @@
 
 - name: Low-Cost Rapid Tooling by Fused Deposition Modeling (FDM)
   shortname: Fused Deposition Modeling
-  desc: |
+  desc: >
     The objective of this research project is to investigate low-cost rapid
     tooling with Ultem (9085 &amp; 1010) using the fused deposition modeling (FDM)
     process, an additive manufacturing technique that built a part layer-by-layer
@@ -155,7 +163,7 @@
     experimental testing. The project is conducted jointly by Missouri S&amp;T
     and Boeing Research &amp; Technology.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: K. Chandrashekhara
     - name: Leah Mason
@@ -173,7 +181,7 @@
 
 - name: 3D Printing for Bone Tissue Engineering
   shortname: Bone Tissue Engineering
-  desc: |
+  desc: >
     In this research, we first investigated the fabrication of scaffolds with
     engineered porosity from 13-93 bioactive glass using the selective laser
     sintering (SLS) process and an extrusion-based process. The SLS process is a
@@ -203,7 +211,7 @@
     the live-dead assay indicate that cells are alive and actively moving in the
     scaffold.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: Julie Semon
     - name: Delbert Day
@@ -216,11 +224,11 @@
     - name: Keith and Pat Bailey Professorship Fund
   photo: bone_tissue.png
 
-- name: |
+- name: >
     Cyber-Physical Sensing, Modeling, and Control with Augmented Reality for
     Smart Manufacturing Workforce Training and Operations Management
   shortname: Smart Manufacturing with Augmented Reality
-  desc: |
+  desc: >
     Smart manufacturing integrates information, technology, and human ingenuity
     to inspire the next revolution in the manufacturing industry. Manufacturing
     has been identified as a key strategic investment area by the U.S. government,
@@ -238,7 +246,7 @@
     and will provide unique interdisciplinary training opportunities for students
     and future manufacturing engineers.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: Ruwen Qin
     - name: Zhaozheng Yin
@@ -248,7 +256,7 @@
 
 - name: Scalable Cyber-Physical Manufacturing Systems
   shortname: Cyber-Physical Manufacturing
-  desc: |
+  desc: >
     This is a collaborative research project between Missouri S&amp;T and the
     University of Arkansas. This project is dedicated to the development of a
     framework including architecture and protocols for communication among
@@ -264,7 +272,7 @@
     development of a testbed to evaluate the developed architecture, protocols,
     and methods.
   status: Active
-  participants:
+  partic:
     - name: Ming C. Leu
     - name: Frank Liu
     - name: Maggie Cheng

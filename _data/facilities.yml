@@ -9,23 +9,33 @@
 #     Available attributes are as follows:
 #         name          The name of the equipment*
 #         manufacturer  The name of the manufacturer of the equipment
-#         link          Link to the webpage of the equipment (not just the manufacturer website)
-#         desc          A short description on the capabilities and features of the equipment
-#         specs         A list of specifications. Each entry only has a single "name" attribute
-#         photo         Just the name of the image file for the equipment
-#                       (must exist in the /img/facilities/ directory)
-#         sample-parts  Just the name of the image file for the sample part made by the equipment
-#                       Each entry only has a single "photo" attribute.
+#         link          Link to the webpage of the equipment (not just the
+#                       manufacturer website)
+#         desc          A short description on the capabilities and features of
+#                       the equipment
+#         specs         A list of specifications. Each entry only has a single
+#                       "name" attribute
+#         photo         Just the name and the extension of the image file for
+#                       the equipment (must exist in the /img/facilities/ directory)
+#         sample-parts  Just the name and the extension of the image file for
+#                       the sample part made by the equipment. Each entry only
+#                       has a single "photo" attribute.
 #                       (image file must exist in the /img/facilities/ directory)
 #      * Required in order for the website to display
 #    Additional Notes:
 #      - Quotes around the values are optional.
 #      - Non-required attributes with blank values can be omitted completely.
+#      - For long entries, it is advised to use a block style: in front of the
+#           key, add a ">" character, followed by as many indented lines as
+#           needed,
+#           e.g., - name: >
+#                     This is a very very long entry that doesn't fit in a
+#                     single line.
 
 - name: Selective Laser Melting Machine
   manufacturer: Renishaw
   link: "http://www.renishaw.com/en/am250--15253"
-  desc: |
+  desc: >
     This machine is capable of fabricating complex metal parts with internal
     features in the build envelope of 10&Prime; &times; 10&Prime; &times;
     12&Prime; from steel, titanium, nickel, aluminum, and cobalt chrome.
@@ -46,7 +56,7 @@
 - name: Universal Testing Machine
   manufacturer: Automated Ball Indentation
   link: "http://abiservices-usa.com/laboratory-services/"
-  desc: |
+  desc: >
     This machine can be used for mechanical testing (tension, compression, etc.)
     and non-destructive evaluation of mechanical properties at room and elevated
     temperatures.
@@ -60,7 +70,7 @@
 - name: 5969 Dual Column Test Frame
   manufacturer: Instron
   link: "http://www.instron.us/en-us/products/testing-systems/universal-testing-systems/electromechanical/5900/5960-dual-column"
-  desc: |
+  desc: >
     This machine can be used for mechanical testing (tension, compression, etc.)
     at room and elevated temperatures.
   specifications:
@@ -73,7 +83,7 @@
 - name: VZ500LH Wire EDM Machine
   manufacturer: Sodick
   link: "http://www.sodick.com/products/wireedm/vz500lh"
-  desc: |
+  desc: >
     This machine can be used to cut metal parts into desired shapes by
     wire-based electric discharge machining.
   specifications:
@@ -86,7 +96,7 @@
 - name: Teksphero-15 Plasma Spheroidizer
   manufacturer: Tekna
   link: "http://www.tekna.com/landing-page/teksphero-15"
-  desc: |
+  desc: >
     This machine can be used to re-shape powder particles into spherical shapes.
   specifications:
     - name: "Spheroidizer Dimensions: 1,807 mm &times; 762 mm &times; 2,438 mm"
@@ -100,7 +110,7 @@
 - name: Fortus 400mc Fused Deposition Modeling Machine
   manufacturer: Stratasys
   link: "http://www.stratasys.com/3d-printers/production-series/fortus-380-450mc"
-  desc: |
+  desc: >
     This machine can be used to make complex polymeric parts from
     production-grade thermoplastics including ABS, Polycarbonate, ULTEM, and
     PPSF.
@@ -118,7 +128,7 @@
 - name: DTM Sinterstation 2000 Selective Laser Sintering Machine
   manufacturer: Multistation
   link: "http://www.multistation.com/DTM-2000"
-  desc: |
+  desc: >
     This machine can be used to fabricate complex parts from thermoplastics,
     ceramics and glasses .
   specifications:
@@ -134,7 +144,7 @@
     - photo: dtm2000_p4.jpg
 
 - name: Ceramic On-Demand Extrusion Machine (developed in-house)
-  desc: |
+  desc: >
     This in-house constructed machine can be used to fabricate complex parts
     from ceramics, ceramic/glass composites, and functionally graded ceramics.
   photo: ceramic_extrusion.jpg
