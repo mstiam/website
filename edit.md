@@ -21,7 +21,7 @@ However, you will need to be granted access, which requires the following:
     - Provide them with your *GitHub username*
 3. Check your email and accept the group invitation
 
-If you've already done the steps above, go to the next step.
+If you have already done the steps above, go to the next step.
 
 ### Make Modifications
 
@@ -30,7 +30,7 @@ The type of change you want to make will determine the file you need to edit.
 The table below tries to direct you to the proper file.
 
 | What You Want to Modify     | File to Edit          |
-| :----------------------     | :-------------------- |
+| :-------------------------- | :-------------------- |
 | Faculty Members             | [faculty.yml][1]      |
 | Postdoctoral Fellow Members | [postdocs.yml][2]     |
 | Student Members             | [students.yml][3]     |
@@ -46,11 +46,18 @@ Next, assuming you are logged in to GitHub, click on the pencil icon in the uppe
 
 ![GitHub Edit File Button Location](edit-data.png){:.img-responsive .img-thumbnail width="800px"}
 
-This will take you to a page where you can edit the file's contents directly in the browser.
+This will take you to a page where you can edit the contents of the file directly in the browser.
 
 **<i class="fa fa-exclamation-triangle"></i>
-Each text file in the table above has documentation at the top of it explaining its structure - you must follow the file's format.
-Each file's format except `publications.bib` is based on a simple format called [YAML](https://en.wikipedia.org/wiki/YAML).**{:.alert .alert-success}
+Each text file in the table above has documentation at the top of it explaining its structure - you must follow the file formats.**
+
+Files with `.yml` extension are based on a simple format called [YAML](https://en.wikipedia.org/wiki/YAML).
+
+The file `publications.bib` is in [BibTeX](https://en.wikipedia.org/wiki/BibTeX) format. It is easiest if the BibTeX entry for each publication is downloaded directly from the website of the publisher. Almost all of the major publishers have **citation export** links for each publication in different formats including BibTeX. The BibTeX entry should then be placed in `publications.bib`. It is advised that the fields of each new BibTeX entry be carefully checked for errors. Note that you need to add specific non-standard fields to the new BibTeX entries in order to make sure they will be listed under appropriate project (read instructions at the top of `publications.bib`).
+
+If you need to upload a file (e.g., member photos), navigate to the destination directory and click on **upload files** button.
+
+![GitHub Edit File Button Location](upload-files.png){:.img-responsive .img-thumbnail width="800px"}
 
 Once you are done making your changes, do the following:
 
@@ -93,33 +100,34 @@ Lastly, push your changes to GitHub (`git push` command) so that others can see 
 Once the website has been cloned from GitHub, you will need to build it.
 
 This website uses [Jekyll](http://jekyllrb.com/), which is a software tool for generating static websites from templates and plain text.
-Jekyll's templating makes it easier to maintain the website because there is less repeated code.
-Another benefit of this is that those without background knowledge of the website's inner workings can make simply changes to the website, e.g., the data files.
+Jekyll makes it easier to maintain the website because there is less repeated code.
+Another benefit of this is that those without background knowledge of the inner workings of the website can make simply changes to the website, e.g., the data files.
 
-If you wish to build the website, you will need to follow the [installation instructions on Jekyll's website](http://jekyllrb.com/docs/installation/).
+If you wish to build the website, you will need to follow the [installation instructions on Jekyll website](http://jekyllrb.com/docs/installation/).
 
-Assuming you have the website repository cloned and Jekyll installed, do the following to build the website:
+After you cloned the website repository and installed Jekyll, navigate to the repository directory via the command line. The following lines are only required to be executed the first time:
+
+- `gem install jekyll-scholar`
+- `bundle config build.nokogiri --use-system-libraries`
+- `bundle install`
+
+Execute the following line after making changes so that Jekyll generates the static website:
+
+- `bundle exec jekyll build`
+
+Alternatively, if you want to preview the website on your local machine, do the following:
 
 - Navigate to the repository directory via the command line
-- Run the following command: `bundle install` (only required to be executed the first time)
-- Run the following command: `gem install jekyll-scholar` (only required to be executed the first time)
-- Run the following command: `bundle exec jekyll build`
-
-Jekyll will generate the static website. Alternatively, if you want to preview the website on your local machine, do the following:
-
-- Navigate to the repository directory via the command line
-- Run the following command: `bundle exec jekyll serve`
+- Execute `bundle exec jekyll serve`
 - Navigate to 127.0.0.1:4000/~mstiam/ on your browser.
 
 ### Deploy
 
 This website is hosted by Missouri S&amp;T.
 
-Before changes are visible on the actual website, the static website generated by Jekyll must be deployed to the school's server.
+Before changes are visible on the actual website, the static website generated by Jekyll must be deployed to the school server.
 
-The `_deploy.rb` script (which requires Ruby and the NetSSH Gem) located in the website's repository will do this for you quickly.
-
-However, it requires that Missouri S&amp;T's IT department has given you permissions to do this.
+The `_deploy.rb` script (which requires [Ruby](https://www.ruby-lang.org/en/downloads/) and the [NetSSH Gem](https://github.com/net-ssh/net-ssh#install)) located in the website repository will do this for you quickly. Simply execute `ruby _deploy.rb` and enter credentials of an S&amp;T account that has been authorized to access and edit the contents of `mstiam` web space.
 
 [1]: https://github.com/mstiam/website/blob/master/_data/faculty.yml
 [2]: https://github.com/mstiam/website/blob/master/_data/postdocs.yml

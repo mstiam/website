@@ -2,7 +2,7 @@
 
 Welcome to the Innovative Additive Manufacturing Lab website repository! Here we maintain source code for [http://web.mst.edu/~mstiam/](http://web.mst.edu/~mstiam/).
 
-If you'd like to know how to edit the website, please go [here](http://web.mst.edu/~mstiam/edit).
+If you would like to know how to edit the website, please go [here](http://web.mst.edu/~mstiam/edit).
 
 ## How to Build
 
