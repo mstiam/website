@@ -1,0 +1,37 @@
+# Alumni Data File
+# Description
+#     This file contains individual records for each BS, MS, or PhD student.
+#     Feel free to use an existing record as a starting point for a new entry.
+#     Each individual record is denoted by ONLY ONE dash "-" on the first line.
+#     After that, a list of attributes can be seen.
+#     The name of the attribute is to the left of the colon; the value is to the
+#       right of the colon.
+#     Available attributes are as follows:
+#         firstname   The first name of the student*
+#         lastname    The last name of the student*
+#         major       The major within which the student is active
+#         degree      Enter "BS", "MS", or "PhD" ONLY*
+#         status      Enter "Current" or "Alumni" ONLY*
+#         grad        Graduation year of the student
+#         email       Email address of the member
+#         website     The full URL to the member's professional website
+#         cv          Just the name and the extension of the cv file for the
+#                     member (must exist in the /cv/ directory)
+#         photo       Just the name and the extension of the image file for the
+#                     member (must exist in the /img/members/ directory)
+#      * Required in order for the website to display
+#    Additional Notes:
+#      - Quotes around the values are optional.
+#      - Non-required attributes with blank values can be omitted completely.
+
+
+- firstname: Amir
+  lastname: Ghazanfari
+  major: Mechanical and Aerospace Engineering
+  degree: PhD
+  status: Current
+  grad: 2017
+  email: ag4nc@mst.edu
+  website: "http://web.mst.edu/~ag4nc/"
+  cv: Ghazanfari.pdf
+  photo: Ghazanfari.jpg
