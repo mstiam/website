@@ -85,7 +85,8 @@ title: People
         {% endfor %}
       </ul>
     {% endif %}
-    <!--
+    
+    {% if alumni.size > 0 %}
     <br/>
     <h4 id="alumni">Alumni</h4>
     <ul class="list-group">
@@ -93,7 +94,8 @@ title: People
         {% include member.html %}
       {% endfor %}
     </ul>
-    -->
+    <% endif %>
+    
     {% if staff.size > 0 %}
       <br/>
       <h4 id="staff">Staff</h4>
